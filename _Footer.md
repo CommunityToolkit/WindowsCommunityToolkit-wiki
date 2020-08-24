@@ -1,2 +1,2 @@
-**How to Contribute to this Wiki**
+## **How to Contribute to this Wiki**
 
