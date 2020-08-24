@@ -1,1 +1,2 @@
-The foundation of the Windows Community Toolkit is simplicity.
+**How to Contribute to this Wiki**
+
