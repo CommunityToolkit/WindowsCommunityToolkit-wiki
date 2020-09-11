@@ -1,1 +1,1 @@
-### ## # Windows Community Toolkit
+### Windows Community Toolkit
