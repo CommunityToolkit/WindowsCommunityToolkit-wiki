@@ -1,6 +1,6 @@
 **Windows Community Toolkit**
 
-* [[What Windows Community Toolkit is all about]]
+* [[Windows Community Toolkit]]
 
 
 **Contribution**
