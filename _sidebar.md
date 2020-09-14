@@ -8,4 +8,4 @@
 * [[ways to contribute]]
 * [[Have Questions :question:]]
 * [[Contribute new Feature :mailbox_with_mail:]]
-* [[Submit Pull Request]]
+* [[Submit Pull Request :rocket:]]
