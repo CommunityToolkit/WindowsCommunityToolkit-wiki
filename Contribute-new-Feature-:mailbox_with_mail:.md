@@ -1,6 +1,6 @@
 The best way to support the Windows Community Toolkit is by contributing a new feature. As Windows Community Toolkit is growing and being utilized by many partners and businesses; the demand for new features has been increased tremendously.
 
-To contribute a feature you can simply create a proposal by selecting Feature Request from the list.
+To contribute a feature you can simply create a proposal by selecting [Feature Request](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues/new/choose) from the list.
 
 Fill out the template by providing detailed information to express your proposal. Remember this is the place where the community is looking at something that might like and vote to implement in the project.
 
