@@ -1,6 +1,6 @@
 **Contribution**
 
 * [[ways to contribute]]
-* [[Have Questions?]]
+* [[Have Questions :grey_question:]]
 * [[Contribute new Feature]]
 * [[Submit Pull Request]]
