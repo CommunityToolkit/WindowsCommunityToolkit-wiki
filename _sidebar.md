@@ -8,6 +8,7 @@
 * [[ways to contribute]]
 * [[Have Questions ❓]]
 * [[Contribute new Feature 📫]]
+* [[Create Pull Request 🚀]]
 * [[Submit Pull Request 🚀]]
 * [[Adding Documentation 📃]]
 * [[Improving Documentation 📃]]
