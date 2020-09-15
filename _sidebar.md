@@ -12,3 +12,4 @@
 * [[Adding Documentation :page_with_curl:]]
 * [[Improving Documentation :page_with_curl:]]
 * [[Reviewing PR :book:]]
+* [[General Rules :warning:]]
