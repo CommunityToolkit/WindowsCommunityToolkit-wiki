@@ -1,0 +1,3 @@
+As the community is always working on improving Windows Community Toolkit and introducing new features, we always make certain that our documentation is also updated and meets the requirement of all the current features. Therefore, improving documentation will be a great way to contribute to this project.
+ 
+Currently, all the Windows Community Toolkit Docs are being hosted on [WindowsCommunityToolkitDocs repository](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs) and the [Doc PR template](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs/blob/master/.github/PULL_REQUEST_TEMPLATE.md) is being followed by the contributors to propose any changes to update the docs for Windows Community Toolkit. 
