@@ -7,6 +7,8 @@
 
 * [[ways to contribute]]
 * [[Have Questions ❓]]
+* [[Find and Fix Bug 🐛]]
+* [[Good First Issue 👌]]
 * [[Contribute new Feature 📫]]
 * [[Create Pull Request 🚀]]
 * [[Submit Pull Request 🚀]]
@@ -16,3 +18,4 @@
 * [[Quality Assurance for Pull Requests for XAML Controls]]
 * [[General Rules ⚠️]]
 * [[Accessibility Guideline ♿]]
+* [[Avoid Roadblocks 🚧]]
