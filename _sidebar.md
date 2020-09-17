@@ -1,4 +1,4 @@
-Home
+* [[Home]]
 
 **About Windows Community Toolkit**
 
