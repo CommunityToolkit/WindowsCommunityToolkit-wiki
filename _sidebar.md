@@ -3,7 +3,7 @@
 * [[Windows Community Toolkit]]
 * [[Windows Community Toolkit Sample App]]
 * [[Features 📬]]
-* [[Required Dependencies]]
+* [[Required Dependencies 📌]]
 * [[Principles ☑️]]
 * [[Roadmap 🗺]]
 
