@@ -1,4 +1,4 @@
-**Windows Community Toolkit**
+**About Windows Community Toolkit**
 
 * [[Windows Community Toolkit]]
 * [[Windows Community Toolkit Sample App]]
