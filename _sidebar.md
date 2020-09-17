@@ -4,6 +4,8 @@
 * [[Windows Community Toolkit Sample App]]
 * [[Features]]
 * [[Required Dependencies]]
+* [[Principles]]
+* [[Roadmap]]
 
 
 **Contribution**
