@@ -10,7 +10,6 @@
 
 **Contribution**
 
-* [[ways to contribute]]
 * [[Have Questions ❓]]
 * [[Find and Fix Bug 🐛]]
 * [[Good First Issue 👌]]
