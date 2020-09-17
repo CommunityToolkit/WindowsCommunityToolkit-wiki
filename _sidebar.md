@@ -14,7 +14,7 @@
 * [[Find and Fix Bug 🐛]]
 * [[Good First Issue 👌]]
 * [[Contribute new Feature 📫]]
-* [[Create Pull Request 🚀]]
+* [[Create Pull Request 🔥]]
 * [[Submit Pull Request 🚀]]
 * [[Add Documentation 📝]]
 * [[Improve Documentation ♻️]]
