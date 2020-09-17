@@ -11,7 +11,7 @@
 **Contribution**
 
 * [[Have Questions ❓]]
-* [[Find and Fix Bug 🐛]]
+* [[Fix Bug 🐛]]
 * [[Good First Issue 👌]]
 * [[Contribute new Feature 📫]]
 * [[Create Pull Request 🔥]]
