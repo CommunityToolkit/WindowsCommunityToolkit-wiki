@@ -1,6 +1,7 @@
 **About Windows Community Toolkit**
 
 * [[Windows Community Toolkit]]
+* [[Getting Started]]
 * [[Windows Community Toolkit Sample App 📱]]
 * [[Features 📬]]
 * [[Required Dependencies 📌]]
