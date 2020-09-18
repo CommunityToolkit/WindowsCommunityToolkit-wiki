@@ -3,6 +3,7 @@
 * [[Windows Community Toolkit]]
 * [[Getting Started]]
 * [[Windows Community Toolkit Sample App 📱]]
+* [[Nuget Packages]]
 * [[Features 📬]]
 * [[Required Dependencies 📌]]
 * [[Principles ☑️]]
