@@ -12,7 +12,7 @@
 
 **Contribution**
 
-* [[Have Questions ❓]]
+* [[Got Questions ❓]]
 * [[Fix Bug 🐛]]
 * [[Good First Issue 👌]]
 * [[Contribute new Feature 📫]]
