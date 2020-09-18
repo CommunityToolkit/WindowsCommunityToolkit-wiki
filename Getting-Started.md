@@ -1,0 +1,1 @@
+Please read the [Getting Started with the Windows Community Toolkit](https://docs.microsoft.com/en-us/windows/communitytoolkit/getting-started) page for more detailed information about using the toolkit.
