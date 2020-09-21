@@ -1,5 +1,6 @@
 **About Windows Community Toolkit**
 
+* [[Welcome 🙏]]
 * [[Windows Community Toolkit]]
 * [[Getting Started]]
 * [[Windows Community Toolkit Sample App 📱]]
