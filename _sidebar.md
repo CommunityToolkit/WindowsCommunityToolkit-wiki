@@ -22,7 +22,7 @@
 * [[Add Documentation 📝]]
 * [[Improve Documentation ♻️]]
 * [[Review PR 📖]]
-* [[Quality Assurance for Pull Requests for XAML Controls ⚡️]]
+* [[Quality Assurance for Pull Requests for XAML Controls]]
 * [[General Rules ⚠️]]
 * [[Accessibility Guideline ♿]]
 * [[Avoid Roadblocks 🚧]]
