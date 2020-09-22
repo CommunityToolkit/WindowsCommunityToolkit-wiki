@@ -12,7 +12,7 @@
 
 **Contribution**
 
-* [[Things to consider before submitting any bug report 👋]]
+* [[Things to consider before submitting any report 👋]]
 * [[Got Questions ❓]]
 * [[Fix Bug 🐛]]
 * [[Good First Issue 👌]]
