@@ -1,3 +1,5 @@
+In general, the project follows the [C# Coding Convention](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) and [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/). We use tools like StyleCop to help enforce some of the rules below. 
+
 * DO NOT require that users perform any extensive initialization before they can start programming basic scenarios.
 * DO provide good defaults for all values associated with parameters, options, etc.
 * DO ensure that APIs are intuitive and can be successfully used in basic scenarios without referring to the reference documentation.
@@ -10,3 +12,5 @@
 * DO NOT return true or false to give success status. Throw exceptions if there was a failure.
 * DO use verbs like GET.
 * DO NOT use verbs that are not already used like fetch.
+
+
