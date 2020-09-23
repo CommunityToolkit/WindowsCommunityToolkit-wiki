@@ -24,6 +24,6 @@
 * [[Improve Documentation ♻️]]
 * [[Review PR 📖]]
 * [[Building XAML Controls]]
-* [[General Rules ⚠️]]
+* [[Coding Style and Conventions ⚖]]
 * [[Accessibility Guideline ♿]]
 * [[Avoid Roadblocks 🚧]]
