@@ -2,7 +2,7 @@
 
 * [[Welcome 🙏]]
 * [[Windows Community Toolkit]]
-* [[Getting Started 🙌]]
+* [[Getting Started]] 🙌
 * [[Windows Community Toolkit Sample App 📱]]
 * [[Nuget Packages 📦]]
 * [[Features 📬]]
