@@ -29,7 +29,7 @@
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
 * [[Avoid Roadblocks]] 🚧
-* [[Documentation]]
+* [[Documentation]] 📃
 
 ### Development/Testing
 
