@@ -5,7 +5,7 @@ Once you do a search, you should see a list similar to the one below (versions m
 ![](https://raw.githubusercontent.com/windows-toolkit/WindowsCommunityToolkit/master/githubresources/images/NugetPackages.png)
 
 
-***
+
 | NuGet Package Name      | Description   |
 | :------------- | :----------: |
 |  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
