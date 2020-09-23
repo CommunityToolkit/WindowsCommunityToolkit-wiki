@@ -6,7 +6,7 @@ Once you do a search, you should see a list similar to the one below (versions m
 
 
 
-| NuGet Package Name      | Description   |
+| **NuGet Package Name**      | **Description**   |
 | :------------- | :----------: |
 |  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
 | Microsoft.Toolkit.HighPerformance   | .NET Standard and .NET Core NuGet package with performance-oriented helpers, extensions, etc |
