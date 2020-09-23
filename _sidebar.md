@@ -2,14 +2,16 @@
 
 * [[Welcome]] 🙏
 * [[Windows Community Toolkit]]
-* [[Getting Started]] 🙌
-* [[Windows Community Toolkit Sample App]] 📱
-* [[Nuget Packages]] 📦
 * [[Features]] 📬
-* [[Required Dependencies]] 📌
 * [[Principles]] ☑️
 * [[Roadmap]] 🗺
 * [[.NET Foundation]]
+
+### Usage
+
+* [[Windows Community Toolkit Sample App]] 📱
+* [[Getting Started]] 🙌
+* [[Nuget Packages]] 📦
 
 ### Contribution
 
@@ -27,3 +29,7 @@
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
 * [[Avoid Roadblocks]] 🚧
+
+### Development/Testing
+
+* [[Required Dependencies]] 📌
