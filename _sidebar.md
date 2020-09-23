@@ -23,7 +23,7 @@
 * [[Add Documentation 📝]]
 * [[Improve Documentation ♻️]]
 * [[Review PR 📖]]
-* [[Building XAML Controls]]
+* [[Building XAML Controls 🎛]]
 * [[Coding Style and Conventions ⚖]]
 * [[Accessibility Guideline ♿]]
 * [[Avoid Roadblocks 🚧]]
