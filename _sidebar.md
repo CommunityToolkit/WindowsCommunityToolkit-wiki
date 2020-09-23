@@ -10,7 +10,7 @@
 * [[Principles ☑️]]
 * [[Roadmap 🗺]]
 
-**Contribution**
+### Contribution
 
 * [[Things to consider before submitting any report ✔️]]
 * [[Got Questions ❓]]
