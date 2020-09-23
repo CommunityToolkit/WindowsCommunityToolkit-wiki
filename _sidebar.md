@@ -9,6 +9,7 @@
 * [[Required Dependencies 📌]]
 * [[Principles ☑️]]
 * [[Roadmap 🗺]]
+* [[.NET Foundation]]
 
 ### Contribution
 
