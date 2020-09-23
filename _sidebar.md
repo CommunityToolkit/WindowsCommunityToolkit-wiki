@@ -1,4 +1,4 @@
-**About Windows Community Toolkit**
+### About Windows Community Toolkit
 
 * [[Welcome 🙏]]
 * [[Windows Community Toolkit]]
