@@ -1,3 +1,5 @@
+![](https://docs.microsoft.com/en-us/windows/uwp/design/downloads/images/windows-community-toolkit.png)
+
 ### About Windows Community Toolkit
 
 * [[Welcome]] 🙏
