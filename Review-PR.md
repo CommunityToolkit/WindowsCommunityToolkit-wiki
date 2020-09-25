@@ -19,7 +19,7 @@ Steps to review PR
 
 :bulb:	List of [Hub Commands](https://hub.github.com/hub.1.html#commands) that can be useful to manage Pull Request. 
 
-Overall, it is essential to make sure the PR has an appropriate branch and it does not contradict with any other changes. If it has multiple changes then make certain it is clearly stated in the [PR Template](https://github.com/windows-toolkit/WindowsCommunityToolkit/blob/master/.github/PULL_REQUEST_TEMPLATE.md) with the detailed information and all the requirements of the PR checklist have been fulfilled.
+Overall, it is essential to make sure the PR is on the feature branch of the forked repository it does not contradict with any other changes. If it has multiple changes then make certain it is clearly stated in the [PR Template](https://github.com/windows-toolkit/WindowsCommunityToolkit/blob/master/.github/PULL_REQUEST_TEMPLATE.md) with the detailed information and all the requirements of the PR checklist have been fulfilled.
 
 It is also significant to watch if the PR contains any breaking changes or not. If the PR contains a breaking change, check for the detailed description of the impact and migration path for the existing application.
 
