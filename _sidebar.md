@@ -36,3 +36,4 @@
 ### Development/Testing
 
 * [[Required Dependencies]] 📌
+* [[Fabric Bot Services]] 🤖
