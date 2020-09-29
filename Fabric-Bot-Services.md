@@ -28,10 +28,119 @@ You can customize the phrases the way you like and if the bot misinterpreted the
 
 Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
 This has been done by setting the following conditions: 
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
 
 
 
 
+
+
+Needs Triage lablel
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Add Voting to New Feature Request
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Add No Recent Activity label to issues
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Remove no recent label when an issue is commented on
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Issues Needs Attention
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Closing Stale Issues
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Closing Duplicate Issues
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Lock closed issues without activity for over 60 days
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Opening Pull Request
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+In-PR Label 
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+
+Add Needs Author feedback label When Changes are Requested in PR
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Remove Needs Author Feedback Label when Author Responds
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Remove No Recenet Activity from Pull Reqeuests
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+
+Remove No Recent Activity when PR is commented ON
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Remove No REceent Activity when PR is reviewed
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Close Stale PR
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+
+Add No Recent Activity Label to the PR
+| **NuGet Package Name**      | **Description**   |
+| :------------- | :----------: |
+|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
 
 
 ***
