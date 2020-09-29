@@ -40,108 +40,299 @@ This has been done by setting the following conditions:
 |Action: Add Label ---> Label: needs attention :wave:|
 |Action: Remove Label ---> Label: needs author feedback :memo:|
 
+<br><br>
+
+**Needs Triage label**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Add Voting to New Feature Request**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Add No Recent Activity label to issues**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Remove no recent label when an issue is commented on**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
 
 
+**Issues Needs Attention**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
 
 
+**Closing Stale Issues**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
 
-Needs Triage lablel
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
 
-Add Voting to New Feature Request
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Add No Recent Activity label to issues
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Remove no recent label when an issue is commented on
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Issues Needs Attention
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Closing Stale Issues
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Closing Duplicate Issues
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Lock closed issues without activity for over 60 days
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-Opening Pull Request
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
-
-In-PR Label 
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+<br><br>
 
 
-Add Needs Author feedback label When Changes are Requested in PR
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+**Closing Duplicate Issues**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
 
-Remove Needs Author Feedback Label when Author Responds
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
 
-Remove No Recenet Activity from Pull Reqeuests
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+<br><br>
+
+**Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
 
 
-Remove No Recent Activity when PR is commented ON
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+**Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
 
-Remove No REceent Activity when PR is reviewed
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
 
-Close Stale PR
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
+<br><br>
 
-Add No Recent Activity Label to the PR
-| **NuGet Package Name**      | **Description**   |
-| :------------- | :----------: |
-|  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
 
+**Lock closed issues without activity for over 60 days**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+
+**Opening Pull Request**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**In-PR Label**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+
+**Add Needs Author feedback label When Changes are Requested in PR**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+
+**Remove Needs Author Feedback Label when Author Responds**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Remove No Recenet Activity from Pull Reqeuests**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+
+**Remove No Recent Activity when PR is commented ON**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Remove No REceent Activity when PR is reviewed**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Close Stale PR**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
+
+<br><br>
+
+**Add No Recent Activity Label to the PR**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| Is Action | Action: Created |
+|Is Activity Sender |User: Author |
+|Has Label | Label: needs author feedback :memo:|
+|Is Open |
+
+| **Actions**   |
+|:----------: |
+|Action: Add Label ---> Label: needs attention :wave:|
+|Action: Remove Label ---> Label: needs author feedback :memo:|
 
 ***
 
