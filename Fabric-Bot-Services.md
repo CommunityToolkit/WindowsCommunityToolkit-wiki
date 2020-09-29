@@ -61,8 +61,8 @@ This has been done by setting the following conditions:
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | Is action | Action: Opened |
-| [x] Not Is part of any project |
-| [x] Is assigned to someone |
+|  <ul><li>- [x] Not: Is part of any project</li></ul> |
+| <ul><li>- [x] Not: Is assigned to someone</li></ul> |
 |Has Label | Label: feature request :mailbox:|
 
 | **Actions**   |
