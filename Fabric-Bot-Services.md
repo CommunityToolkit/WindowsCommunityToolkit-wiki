@@ -2,7 +2,7 @@
 
 You will see the Bot in action whether you open an Issue, PullRequest, Comment, label, etc
 
-First, you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) to request permission to be added in the repo to you are looking to automate. 
+First, you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) to request permission to be added in the repo that you are looking to automate. 
 
 Once the request is approved now you are able to customize the repo very easily in different ways. 
 
