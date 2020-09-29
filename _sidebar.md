@@ -1,5 +1,4 @@
-![](https://docs.microsoft.com/en-us/windows/uwp/design/downloads/images/windows-community-toolkit.png)
-
+![](https://github.com/windows-toolkit/WindowsCommunityToolkit-design-assets/blob/master/Logos/windows_toolkit_sticker_4x4-1.png)
 ### About Windows Community Toolkit
 
 * [[Welcome]] 🙏
