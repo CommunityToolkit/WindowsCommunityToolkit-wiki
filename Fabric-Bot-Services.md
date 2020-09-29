@@ -45,30 +45,30 @@ This has been done by setting the following conditions:
 **Needs Triage label**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| Is Action | Action: Opened |
+| [x] Not Is part of any project |
+| [x] Is assigned to someone |
+|Has Label | Label: bug :bug:|
 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+|Action: Add Label ---> Label: needs triage :mag:|
+|Action: Add Reply ---> Label: I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
 
 <br><br>
 
 **Add Voting to New Feature Request**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| Is action | Action: Opened |
+| [x] Not Is part of any project |
+| [x] Is assigned to someone |
+|Has Label | Label: feature request :mailbox:|
 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+|Action: Add Reaction ---> Reaction: :+1:|
+|Action: Add reply ---> Reply: Hello, '${issueAuthor}! Thanks for submitting a new feature request. I've automatically added a vote :+1: reaction to help get things started. Other community members can vote to help us prioritize this feature in the future!|
 
 <br><br>
 
@@ -76,14 +76,17 @@ This has been done by setting the following conditions:
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | Is Action | Action: Created |
-|Is Activity Sender |User: Author |
+|Search term: Is issue | |
+|Search term: Is open | |
 |Has Label | Label: needs author feedback :memo:|
+|Search term: No activity since | Days since last activity: 14|
+|Search term: Does not have label | label: no-recent-activity :chart_with_downward_trend:|
 |Is Open |
 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+|Action: Add Label ---> Label: no-recent-activity :chart_with_downward_trend:|
+|Action: Add reply ---> Reply: This issue has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **14 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
 
 <br><br>
 
