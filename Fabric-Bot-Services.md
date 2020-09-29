@@ -327,10 +327,11 @@ This has been done by setting the following conditions:
 **Add No Recent Activity Label to the PR**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| Search term: Is pull request ||
+|Search term: Is open|
+|Search term: Has Label | Label: needs author feedback :memo:|
+|Search term: no acticity since |Days since last activity: 15 |
+|Search term: Does not have label | Label: no-recent-activity|
 
 | **Actions**   |
 |:----------: |
