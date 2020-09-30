@@ -327,16 +327,17 @@ This has been done by setting the following conditions:
 **Add No Recent Activity Label to the PR**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Search term: Is pull request ||
+| Frequency: <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| Search term: Is pull request |
 |Search term: Is open|
 |Search term: Has Label | Label: needs author feedback :memo:|
-|Search term: no acticity since |Days since last activity: 15 |
+|Search term: No activity since |Days since last activity: 15 |
 |Search term: Does not have label | Label: no-recent-activity|
 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+|Action: Add Label ---> Label: needs attention :chart_with_downwards_trend:|
+|Action: Add Reply ---> Reply: This pull request has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
 
 ***
 
