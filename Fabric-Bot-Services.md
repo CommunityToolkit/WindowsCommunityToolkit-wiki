@@ -75,18 +75,17 @@ This has been done by setting the following conditions:
 **Add No Recent Activity label to issues**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Search term: Is issue | |
-|Search term: Is open | |
-|Has Label | Label: needs author feedback :memo:|
-|Search term: No activity since | Days since last activity: 14|
-|Search term: Does not have label | label: no-recent-activity :chart_with_downward_trend:|
-|Is Open |
+| Frequency: <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| Search term: Is issue |
+|Search term: Is open|
+|Search term: Has Label | Label: needs author feedback :memo:|
+|Search term: No activity since |Days since last activity: 15 |
+|Search term: Does not have label | Label: no-recent-activity :chart_with_downwards_trend:|
 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: no-recent-activity :chart_with_downward_trend:|
-|Action: Add reply ---> Reply: This issue has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **14 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
+|Action: Add Label ---> Label: no-recent-activity :chart_with_downwards_trend:|
+|Action: Add Reply ---> Reply: This issue has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
 
 <br><br>
 
@@ -332,11 +331,11 @@ This has been done by setting the following conditions:
 |Search term: Is open|
 |Search term: Has Label | Label: needs author feedback :memo:|
 |Search term: No activity since |Days since last activity: 15 |
-|Search term: Does not have label | Label: no-recent-activity|
-
+|Search term: Does not have label | Label: no-recent-activity :chart_with_downwards_trend:|
+ 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: needs attention :chart_with_downwards_trend:|
+|Action: Add Label ---> Label: no-recent-activity :chart_with_downwards_trend:|
 |Action: Add Reply ---> Reply: This pull request has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
 
 ***
