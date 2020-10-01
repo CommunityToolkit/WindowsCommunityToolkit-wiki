@@ -27,80 +27,83 @@ You can customize the phrases the way you like and if the bot misinterpreted the
 
 
 Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
-This has been done by setting the following conditions: 
+This has been done by setting the following conditions:
+The following conditions are used to perform certain tasks
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+|**Condition:** Is Action | **Action:** Created |
+|**Condition:** Is Activity Sender |**User:** Author |
+|**Condition:** Has Label | **Label:** needs author feedback :memo:|
+|**Condition:** Is Open |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+Actions of the conditions applied above. 
+| **Actions**   | **Triggers** |
+|:---------- |:----------: |
+|**Action**: Add Label | **Label**: needs attention :wave:|
+|**Action**: Remove Label | **Label**: needs author feedback :memo:|
 
 <br><br>
 
 **Needs Triage label**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Opened |
-| <ul><li>- [x] Not: Is part of any project</li></ul> |
-| <ul><li>- [x] Not: Is assigned to someone</li></ul> |
-|Has Label | Label: bug :bug:|
+| **Condition:** Is Action | **Action:** Opened |
+| **Condition:** <ul><li>- [x] Not: Is part of any project</li></ul> |
+| **Condition:**  <ul><li>- [x] Not: Is assigned to someone</li></ul> |
+|**Condition:** Has Label | **Label:** bug :bug:|
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs triage :mag:|
-|Action: Add Reply ---> Label: I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
-
-<br><br>
+| **Actions**   | **Triggers**|
+|:----------: |:---------- |
+|**Action:** Add Label | **Label:** needs triage :mag:|
+|**Action:** Add Reply | **Label:** I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
+<br>
 
 **Add Voting to New Feature Request**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is action | Action: Opened |
-|  <ul><li>- [x] Not: Is part of any project</li></ul> |
-| <ul><li>- [x] Not: Is assigned to someone</li></ul> |
-|Has Label | Label: feature request :mailbox:|
+| **Condition:** Is action | **Action**: Opened |
+| **Condition:** <ul><li>- [x] Not: Is part of any project</li></ul> |
+| **Condition:** <ul> <li>- [x] Not: Is assigned to someone</li></ul> |
+| **Condition:** Has Label | **Label**: feature request :mailbox:|
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Reaction ---> Reaction: :+1:|
-|Action: Add reply ---> Reply: Hello, '${issueAuthor}! Thanks for submitting a new feature request. I've automatically added a vote :+1: reaction to help get things started. Other community members can vote to help us prioritize this feature in the future!|
+| **Actions**   |    **Actions**   |
+|:---------- | :---------- |
+|**Action:** Add Reaction | Reaction: :+1:|
+|**Action:** Add reply | **Reply:** Hello, '${issueAuthor}! Thanks for submitting a new feature request. I've automatically added a vote :+1: reaction to help get things started. Other community members can vote to help us prioritize this feature in the future!|
 
 <br><br>
 
 **Add No Recent Activity label to issues**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Frequency: <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
-| Search term: Is issue |
-|Search term: Is open|
-|Search term: Has Label | Label: needs author feedback :memo:|
-|Search term: No activity since |Days since last activity: 15 |
-|Search term: Does not have label | Label: no-recent-activity :chart_with_downwards_trend:|
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is issue |
+| **Search term:** Is open|
+| **Search term:** Has Label | **Label:** needs author feedback :memo:|
+| **Search term:** No activity since |**Days since last activity:** 15 |
+| **Search term:** Does not have label | **Label:** no-recent-activity :chart_with_downwards_trend:|
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: no-recent-activity :chart_with_downwards_trend:|
-|Action: Add Reply ---> Reply: This issue has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
+| **Actions**   |  **Triggers**   |
+|:----------: |:---------- |
+|**Action:** Add Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
+|**Action:** Add Reply | **Reply:** This issue has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
 
 <br><br>
 
 **Remove no recent label when an issue is commented on**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+|**Condition:** Has Label | Label: no-recent-activity :chart_with_downwards_trend:|
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+<br>
+
+| **Actions**   | **Triggers**   |
+|:---------- |:---------- |
+|**Action:** Remove Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
 
 <br><br>
 
@@ -108,78 +111,93 @@ This has been done by setting the following conditions:
 **Issues Needs Attention**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is issue |
+| **Search term:** Is open|
+| **Search term:** Has Label | **Label:** needs triage :mag:|
+| **Search term:** No activity since |**Days since last activity:** 15 |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
-
+| **Actions**   |  **Triggers**   |
+|:----------: |:---------- |
+|**Action:** Add Label | **Label:** needs attention :wave:|
+|**Action:** Add Reply | **Reply:** This issue has been marked as "needs attention 👋" due to no activity for **15 days**.  Please triage the issue so the fix can be established. |
 <br><br>
 
 
 **Closing Stale Issues**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is issue |
+| **Search term:** Is open|
+| **Search term:** Has Label | **Label:** needs author feedback :memo:|
+| **Search term:** Has Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
+| **Search term:** No activity since |**Days since last activity:** 60 |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   |  **Triggers**   |
+|:----------: |:---------- |
+|**Action:** Add Reply | **Reply:** This issue has been automatically closed because it was marked as requiring author feedback but has not had any activity for over **60 days**. |
+|**Action:** Close |
 
 <br><br>
 
 
 **Closing Duplicate Issues**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is issue |
+| **Search term:** Is open|
+| **Search term:** Has Label | **Label:** duplicate :busts_in_silhouette:|
+| **Search term:** No activity since |**Days since last activity:** 1 |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   |  **Triggers**   |
+|:----------: |:---------- |
+|**Action:** Add Reply | **Reply:** This issue has been marked as duplicate and has not had any activity for **1 day**. It will be closed for housekeeping purposes. |
+|**Action:** Close |
 
 <br><br>
 
 **Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** <ul><li>- [x] Not Is open</li></ul> |
+| **Condition:** Is action | **Action**: Created|
+| **Condition:** Has label | **Label**: needs author feedback :memo:|
+| **Condition:** Has label | **Label**: no-recent-activity :chart_with_downwards_trend:|
+| **Condition:** <ul> <li>- [x] Not: No activity since... </li></ul> | **Days ago**: 7|
+| **Condition:** <ul> <li>- [x] Not: Is 'close and comment' action</li></ul> |
+| **Condition:** Is activity sender | **User**: Author|
+| **Condition:** <ul> <li>- [x] Not: Activity sender has permissions</li></ul> | **Permissions**: None|
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
-
-<br><br>
+| **Actions**   |  **Triggers**   |
+|:----------: |:---------- |
+|**Action:** Reopen issue |
+|**Action:** Remove label | **Label:** no-recent-activity :chart_with_downwards_trend: |
+|**Action:** Remove label | **Label:** needs author feedback :memo: |
+|**Action:** Add label | **Label:** needs attention :wave: |
+<br>
 
 
 **Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | Is Action | Action: Created |
+| Condition:  |
 |Is Activity Sender |User: Author |
 |Has Label | Label: needs author feedback :memo:|
 |Is Open |
 
 | **Actions**   |
 |:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+|**Action:** Add reply | **Reply:** Hello lovely human, thank you for your comment on this issue. Because this issue has been closed for a period of time, please strongly consider opening a new issue linking to this issue instead to ensure better visibility of your comment. Thank you!|
 
 <br><br>
 
@@ -326,17 +344,18 @@ This has been done by setting the following conditions:
 **Add No Recent Activity Label to the PR**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Frequency: <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
-| Search term: Is pull request |
-|Search term: Is open|
-|Search term: Has Label | Label: needs author feedback :memo:|
-|Search term: No activity since |Days since last activity: 15 |
-|Search term: Does not have label | Label: no-recent-activity :chart_with_downwards_trend:|
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is pull request |
+|**Search term:** Is open|
+|**Search term:** Has Label | **Label:** needs author feedback :memo:|
+|**Search term:** No activity since |**Days since last activity:** 15 |
+|**Search term:** Does not have label | **Label:** no-recent-activity :chart_with_downwards_trend:|
+ <br>
  
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: no-recent-activity :chart_with_downwards_trend:|
-|Action: Add Reply ---> Reply: This pull request has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
+| **Actions**   | **Triggers**   |
+|:----------: |:----------|
+|**Action:** Add Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
+|**Action:** Add Reply | **Reply:** This pull request has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
 
 ***
 
