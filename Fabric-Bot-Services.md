@@ -28,7 +28,12 @@ You can customize the phrases the way you like and if the bot misinterpreted the
 
 Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
 This has been done by setting the following conditions:
+
 The following conditions are used to perform certain tasks
+
+**Event responder - issue comments**
+Replace needs author feedback label with needs attention label when the author comments on an issue.
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 |**Condition:** Is Action | **Action:** Created |
@@ -45,6 +50,7 @@ Actions of the conditions applied above.
 
 <br><br>
 
+**Event responder - issues**
 **Needs Triage label**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -58,8 +64,9 @@ Actions of the conditions applied above.
 |:----------: |:---------- |
 |**Action:** Add Label | **Label:** needs triage :mag:|
 |**Action:** Add Reply | **Label:** I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
-<br>
+<br><br>
 
+**Event responder - issues**
 **Add Voting to New Feature Request**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
