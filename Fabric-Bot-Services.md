@@ -121,7 +121,7 @@ Actions of the conditions applied above.
 | **Actions**   |  **Triggers**   |
 |:----------: |:---------- |
 |**Action:** Add Label | **Label:** needs attention :wave:|
-|**Action:** Add Reply | **Reply:** This issue has been marked as "needs attention 👋" due to no activity for **15 days**.  Please triage the issue so the fix can be established. |
+|**Action:** Add Reply | **Reply:** This issue has been marked as "needs attention :wave:" due to no activity for **15 days**.  Please triage the issue so the fix can be established. |
 <br><br>
 
 
@@ -185,15 +185,14 @@ Actions of the conditions applied above.
 |**Action:** Add label | **Label:** needs attention :wave: |
 <br>
 
-
 **Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-| Condition:  |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Is Action | **Action:** Created |
+| <ul> <li>- [x] Not: Is Open </li></ul> |
+| **Condition:** Activity Sender has permissions | **Permissions:** None |
+| **Condition:** No activity Since | **Days ago:** 7|
+| **Condition:** <ul> <li>- [x] Not: Is 'close and comment' action</li></ul>|
 
 | **Actions**   |
 |:----------: |
@@ -205,15 +204,17 @@ Actions of the conditions applied above.
 **Lock closed issues without activity for over 60 days**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is closed |
+|**Search term:** No activity since | **Days since last activity:** 60|
+|**Search term:** Is unlocked|
+|**Search term:** Is issue|
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+<br>
+
+| **Actions**   | **Triggers**   |
+|:------------- |:----------: |
+|**Action:** Add Label | **Reason:** Resolved|
 
 <br><br>
 
@@ -221,46 +222,34 @@ Actions of the conditions applied above.
 **Opening Pull Request**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Is Action | **Action:** Opened |
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   | **Triggers**   |
+|:----------: |:---------- |
+|**Action:** Add Reply | **Reply:** Thanks ${issueAuthor} for opening a Pull Request! The reviewers will test the PR and highlight if there is any conflict or changes required. If the PR is approved we will proceed to merge the pull request :raised_hands:|
+|**Action:** Request Reviewer | **Reviewer:** @user|
 
 <br><br>
 
 **In-PR Label**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
-
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **'In-PR' label:** Label |
+| **Enable 'Fixed' Label?** 'Fixed' Label: Label |
 
 <br><br>
 
 
-**Add Needs Author feedback label When Changes are Requested in PR**
+**Add Needs Author feedback label to PR When Changes are Requested**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Is Action | **Action:** Submitted |
+| **Condition:** Is review state |**State:** Changed requested |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   | **Triggers**   |
+|:----------: |:----------: |
+|**Action:** Add Label | **Label:** needs author feedback :memo:|
 
 <br><br>
 
@@ -268,76 +257,73 @@ Actions of the conditions applied above.
 **Remove Needs Author Feedback Label when Author Responds**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Is activity sender| **User:** Author |
+| **Condition:** <ul><li>- [x] Not: Is action</li></ul> | **Is action:** Closed|
+|**Condition:** Has Label | **Label:** needs author feedback :memo:|
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   | **Triggers**   |
+|:---------- |:---------- |
+|**Action:** Remove Label | **Label:** needs author feedback :memo:|
+|**Action:** Add Label | **Label:** needs attention :wave:|
+|**Action:** Add Reply | **Reply:** This PR has been marked as "needs attention :wave:" and awaiting a response from the team. |
 
 <br><br>
 
 **Remove No Recenet Activity from Pull Reqeuests**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Is Action | **Action:** Closed |
+| **Condition:** Has Label |**Label:** no-recent-activity :chart_with_downwards_trend: |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   | **Triggers**   |
+|:---------- |:----------
+|**Action:** Remove Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
 
 <br><br>
 
-
+Event responder Pull Request Comments
 **Remove No Recent Activity when PR is commented ON**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Has Label |**Label:** no-recent-activity :chart_with_downwards_trend: |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   | **Triggers**   |
+|:---------- |:----------
+|**Action:** Remove Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
 
 <br><br>
 
-**Remove No REceent Activity when PR is reviewed**
+Event responder - pull request reviews
+**Remove No Recent Activity when PR is reviewed**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
+| **Condition:** Has Label |**Label:** no-recent-activity :chart_with_downwards_trend: |
+<br>
 
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Actions**   | **Triggers**   |
+|:---------- |:----------
+|**Action:** Remove Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
 
 <br><br>
 
+Scheduled search
 **Close Stale PR**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
-| Is Action | Action: Created |
-|Is Activity Sender |User: Author |
-|Has Label | Label: needs author feedback :memo:|
-|Is Open |
-
-| **Actions**   |
-|:----------: |
-|Action: Add Label ---> Label: needs attention :wave:|
-|Action: Remove Label ---> Label: needs author feedback :memo:|
+| **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
+| **Search term:** Is pull request |
+|**Search term:** Is open|
+|**Search term:** Has Label | **Label:** needs author feedback :memo:|
+|**Search term:** Has Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
+|**Search term:** No activity since |**Days since last activity:** 45 |
+ <br>
+ 
+| **Actions**   | **Triggers**   |
+|:----------: |:----------|
+|**Action:** Close|
 
 <br><br>
 
