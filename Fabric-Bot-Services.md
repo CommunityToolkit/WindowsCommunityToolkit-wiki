@@ -206,9 +206,12 @@ If an author responds to the issues that were closed earlier due to lack of part
 |**Action:** Remove label | **Label:** no-recent-activity :chart_with_downwards_trend: |
 |**Action:** Remove label | **Label:** needs author feedback :memo: |
 |**Action:** Add label | **Label:** needs attention :wave: |
-<br>
+<br><br>
 
 
+The issues that were closed for over 7 days and then a non-contributor attempt to open the issues then the following condition will be applied to make certain that the issue does not re-open. When the non-contributor will comment on this closed issue @msftbot will respond to the non-contributor that they will have to open a new issue instead. Such action is to make certain that not everyone can open the closed issue since it could be closed for many reasons. The action is used to reduced unwanted issues to be open. 
+
+**Event responder - issue comments**
 **Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -224,7 +227,9 @@ If an author responds to the issues that were closed earlier due to lack of part
 
 <br><br>
 
+The action of this task is self-explanatory that any issues that will be closed for over 60 days will automatically be locked. This will ensure that no further activity is done in the closed issue since 60 days is used as a grace period where incase if any stakeholder still wants to comment or have questions. The conditions are performed by @msftbot every three hours to better manage the issues that are closed and keep the repository clean and well managed.  
 
+**Scheduled search**
 **Lock closed issues without activity for over 60 days**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -242,7 +247,9 @@ If an author responds to the issues that were closed earlier due to lack of part
 
 <br><br>
 
+When a contributor opens a Pull Request in WCT repository @msftbot runs the following conditions to ensure that its a very clean and transparent process for the author. Therefore when the PR is opened @microsoft will add the greetings message by automatically detecting the author's name via ${issueAuthor} which is another great feature of the bot service. This acknowledges and recognizes the author for their contribution and tags the selective members of the WCT team to who will perform the testing for the author. The purpose of this procedure is to ensure that the author feels welcomed and the WCT appreciates the time of the author therefore expediting the process faster to merge in the repo. 
 
+**Event responder - pull requests**
 **Opening Pull Request**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -254,6 +261,7 @@ If an author responds to the issues that were closed earlier due to lack of part
 |**Action:** Request Reviewer | **Reviewer:** @user|
 
 <br><br>
+
 
 **In-PR Label**
 | **Conditions**   | **Actions**   |
