@@ -29,8 +29,24 @@ You can customize the phrases the way you like and if the bot misinterpreted the
 Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
 This has been done by setting the following conditions:
 
-The following conditions are used to perform certain tasks
+The following conditions are used to perform certain tasks. Needs Triage is the most used label you will encounter throughout the reop. As the name suggests it used to triage the issue, feature, or any request whenever you open in the WCT. The purpose of the label is to create visibility ensure the opener that the issue has been received and from here it will be triaged to the appropriate team to ensure faster response and possible resolution. 
+**Event responder - issues**
+**Needs Triage label**
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| **Condition:** Is Action | **Action:** Opened |
+| **Condition:** <ul><li>- [x] Not: Is part of any project</li></ul> |
+| **Condition:**  <ul><li>- [x] Not: Is assigned to someone</li></ul> |
+|**Condition:** Has Label | **Label:** bug :bug:|
+<br>
 
+| **Actions**   | **Triggers**|
+|:----------: |:---------- |
+|**Action:** Add Label | **Label:** needs triage :mag:|
+|**Action:** Add Reply | **Label:** I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
+<br><br>
+
+The purpose of the following label is to ensure the continued momentum of the issue and to be certain there are no delays in responses from the party that is helping solve the problem. Therefore when the Author will comment on the issue @msftbot bot will automatically apply the "needs attention :wave:" label to alert other parties to respond back to the author and expedite the issue. 
 **Event responder - issue comments**
 Replace needs author feedback label with needs attention label when the author comments on an issue.
 
@@ -50,21 +66,7 @@ Actions of the conditions applied above.
 
 <br><br>
 
-**Event responder - issues**
-**Needs Triage label**
-| **Conditions**   | **Actions**   |
-|:------------- |:----------: |
-| **Condition:** Is Action | **Action:** Opened |
-| **Condition:** <ul><li>- [x] Not: Is part of any project</li></ul> |
-| **Condition:**  <ul><li>- [x] Not: Is assigned to someone</li></ul> |
-|**Condition:** Has Label | **Label:** bug :bug:|
-<br>
-
-| **Actions**   | **Triggers**|
-|:----------: |:---------- |
-|**Action:** Add Label | **Label:** needs triage :mag:|
-|**Action:** Add Reply | **Label:** I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
-<br><br>
+When the author will first open the feature request to introduce an idea or suggestions that can either improve the performance or innovate WCT, it will be responded back with the message by the bot that will greet and Add the Thumbs as a voting feature. Then the rest of the community will checkout the feature whether it's worth implementing in WCT or not. If they like the feature they will add more thumps up on top of the existing one to ensure the feature request must be adopted. 
 
 **Event responder - issues**
 **Add Voting to New Feature Request**
@@ -83,6 +85,9 @@ Actions of the conditions applied above.
 
 <br><br>
 
+
+"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the issue will be closed if it continued to be untouched or left without activity. The label provides greater visibility and triggers to make certain there are no delays. 
+**Scheduled search**
 **Add No Recent Activity label to issues**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -101,6 +106,8 @@ Actions of the conditions applied above.
 
 <br><br>
 
+Once the comment has been made in the issue the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the issue will continue and proceeds towards possible solution of the problem. 
+**Event responder - issue comments**
 **Remove no recent label when an issue is commented on**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -115,6 +122,9 @@ Actions of the conditions applied above.
 <br><br>
 
 
+"needs attention :wave:" label with the message will be triggered to alert all the stakeholders that are involved in certain issues. This ensures transparency that the issue has been sitting without any activity for 15 days. Therefore it is essential to establish procedures that will either provide further guidance or triage the issue to the appropriate team that can resolve the issue in a timely manner. 
+
+**Scheduled search**
 **Issues Needs Attention**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -131,7 +141,9 @@ Actions of the conditions applied above.
 |**Action:** Add Reply | **Reply:** This issue has been marked as "needs attention :wave:" due to no activity for **15 days**.  Please triage the issue so the fix can be established. |
 <br><br>
 
+At this point after many alerts to the issue that required author feedback if still hasn't been responded @msftbot will the run the search based on these conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the issue. Such actions are used to better manage the issue and to ensure the issues are just left open aren't cluttered in the repo and blocks the focus on issues that are active. 
 
+**Scheduled search**
 **Closing Stale Issues**
 
 | **Conditions**   | **Actions**   |
@@ -151,6 +163,7 @@ Actions of the conditions applied above.
 
 <br><br>
 
+The conditions of this action runs regularly to ensure if there is an issue open with the Duplicate label, then @msftbot can respond to the issue with the message that the issue was open for 1 day and will be closed due to the fact it is a duplicate issue. 
 
 **Closing Duplicate Issues**
 
@@ -170,6 +183,9 @@ Actions of the conditions applied above.
 
 <br><br>
 
+If an author responds to the issues that were closed earlier due to lack of participation or inactivity @msfbot will run the following conditions and see if it was within 7 days and if it fulfills all the requirement @msftbot will automatically reopen the issue and add the needs attention label to ascertain to provide a fresh start and possible resolution of the issue with the help of deleting any label such as no-recent-activity :chart_with_downwards_trend: and needs author feedback :memo: to ensure issue looks clean and will be solved. 
+
+**Event responder - issue comments**
 **Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing**
 
 | **Conditions**   | **Actions**   |
@@ -191,6 +207,7 @@ Actions of the conditions applied above.
 |**Action:** Remove label | **Label:** needs author feedback :memo: |
 |**Action:** Add label | **Label:** needs attention :wave: |
 <br>
+
 
 **Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
 | **Conditions**   | **Actions**   |
