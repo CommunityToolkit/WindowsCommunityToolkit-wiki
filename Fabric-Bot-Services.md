@@ -106,7 +106,7 @@ When the author will first open the feature request to introduce an idea or sugg
 
 <br><br>
 
-Once the comment has been made in the issue the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the issue will continue and proceeds towards possible solution of the problem. 
+Once the comment has been made in the issue the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the issue will continue and proceeds towards a possible solutions to the problem. 
 **Event responder - issue comments**
 **Remove no recent label when an issue is commented on**
 | **Conditions**   | **Actions**   |
@@ -262,7 +262,7 @@ When a contributor opens a Pull Request in WCT repository @msftbot runs the foll
 
 <br><br>
 
-
+This feature is used as an indicator to the issue that there is a PR open in the repository which will be merged to solve this issue. This is completed when the author opens a PR and includes the issue number in the PR template as #Fixes 1234 (1234 is used an issue number for demo purposes). Once these steps are performed @msftbot will automatically detect the issue mentioned in the PR and tag as "In-PR :rocket:" label to alert the author of the issue or stakeholders for transparency and visibility.
 **In-PR Label**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -271,7 +271,9 @@ When a contributor opens a Pull Request in WCT repository @msftbot runs the foll
 
 <br><br>
 
-
+When the author opens the PR, and the stakeholders respond to the PR seeking author's response the bot will run the following condition and apply the needs author feedback :memo: label in the PR. This is to alert the Author that the activity has occurred and they need to respond so the merge can be applied faster. The purpose of the task is to improve productivity and to provide possible resolution. 
+ 
+**Event responder - pull request reviews**
 **Add Needs Author feedback label to PR When Changes are Requested**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -341,6 +343,7 @@ Event responder - pull request reviews
 
 <br><br>
 
+At this point after many alerts to the PR that required author feedback if still hasn't been responded @msftbot will the run the search based on the following conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the PR. Such actions are used to better manage the PR and to ensure that the PR's are just left open isn't cluttered in the repo and blocks the focus on PR's that are active. 
 Scheduled search
 **Close Stale PR**
 | **Conditions**   | **Actions**   |
@@ -359,6 +362,7 @@ Scheduled search
 
 <br><br>
 
+"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the PR will be closed if it continued to be untouched or left without activity or comments. The label provides greater visibility and triggers to make certain there are no delays. 
 **Add No Recent Activity Label to the PR**
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
