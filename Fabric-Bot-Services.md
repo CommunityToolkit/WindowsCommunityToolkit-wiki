@@ -304,18 +304,8 @@ When the author opens the PR, and the stakeholders respond to the PR seeking aut
 
 <br><br>
 
-**Remove No Recenet Activity from Pull Reqeuests**
-| **Conditions**   | **Actions**   |
-|:------------- |:----------: |
-| **Condition:** Is Action | **Action:** Closed |
-| **Condition:** Has Label |**Label:** no-recent-activity :chart_with_downwards_trend: |
-<br>
 
-| **Actions**   | **Triggers**   |
-|:---------- |:----------
-|**Action:** Remove Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
-
-<br><br>
+Once the comment has been made in the PR the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the PR will continue and proceeds towards possible solutions to the problem.
 
 Event responder Pull Request Comments
 **Remove No Recent Activity when PR is commented ON**
@@ -330,6 +320,7 @@ Event responder Pull Request Comments
 
 <br><br>
 
+Once the PR is reviewed the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the PR will continue and proceeds towards possible solutions to the problem.
 Event responder - pull request reviews
 **Remove No Recent Activity when PR is reviewed**
 | **Conditions**   | **Actions**   |
