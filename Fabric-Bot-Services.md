@@ -1,37 +1,21 @@
-[Fabric Bot Services](https://fabric-cp.azurewebsites.net/bot/) platform is being utilized throughout the Windows Community Toolkit repo to work as an automated bot and perform the tasks on behalf of users to increase productivity and ease the workflow. 
+[Fabric Bot Services](https://fabric-cp.azurewebsites.net/bot/) platform is being utilized throughout the Windows Community Toolkit repo to work as an  
 
 You will see the Bot in action whether you open an Issue, PullRequest, Comment, label, etc
 
 First, you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) to request permission to be added in the repo that you are looking to automate. 
 
-Once the request is approved now you are able to customize the repo very easily in different ways. 
+Once the request is approved, then you will be able to go to the list of selected repositories in fabric bot and customize the tasks you want to perform by applying certain conditions and actions. 
 
-Here is how our repo uses the Bot🤖:
+Here is how our repo currently uses the Fabric Bot :robot:
 
-Auto-Merge label: This is the label that is used in active Pull Requests to give commands to signoff once all the requirements are met. (In our repo by default 2 reviewers need to sign-off and three checks including Toolkit/CI, WIP, and license/CLI need to be met. The wait time period for the PR is set for 8 hours since the time it was opened. Therefore once the 8 hours are complete and all the requirements are met, the PR will automatically be merged. If the 8 hours are not completed you will see the following message from @msftbot 
+**Needs Triage label**
 
-"Hello user! Because this pull request has the auto-merge label, I will be glad to assist with helping to merge this pull request once all check-in policies pass.
-
-p.s. you can customize the way I help with merging this pull request, such as holding this pull request until a specific person approves. Simply @mention me (@msftbot) and give me an instruction to get started! Learn more here." 
-
-YOu can customize the auto-merge now by commanding the bot via comments. There are certain scenarios that can be used. 
-
-You can require limits of approval or a specific reviewer to proceed with the PR. 
-For example: Merge this Pull request if approved by 3 reviewers or Only merge if "@user" approves the PR. 
-
-You can require approval from a few people to several people. For Example: Only merge the PR if @user1, @user2, and @user3 approve OR Merge the PR if @user1, @user1, or @user1 approves. 
-
-Additionally, you can also hold the PR for a certain time period. For example, Hold the PR for another 8 hours, etc. 
- 
-You can customize the phrases the way you like and if the bot misinterpreted the phrase you mentioned feel free to say "Nevermind" and it will disregard the last change. 
-
-
-Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
 This has been done by setting the following conditions:
 
-The following conditions are used to perform certain tasks. Needs Triage is the most used label you will encounter throughout the reop. As the name suggests it used to triage the issue, feature, or any request whenever you open in the WCT. The purpose of the label is to create visibility ensure the opener that the issue has been received and from here it will be triaged to the appropriate team to ensure faster response and possible resolution. 
+The following conditions are used to perform certain tasks. Needs Triage is the most used label you will encounter throughout the repo. As the name suggests it is used to triage the issue, feature, or any request whenever you open in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. 
+
 **Event responder - issues**
-**Needs Triage label**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Is Action | **Action:** Opened |
@@ -44,11 +28,15 @@ The following conditions are used to perform certain tasks. Needs Triage is the 
 |:----------: |:---------- |
 |**Action:** Add Label | **Label:** needs triage :mag:|
 |**Action:** Add Reply | **Label:** I have automatically added a "needs triage" label to help get things started. Our team will analyze and investigate the issue, and escalate it to the relevant team if possible. Other community members may also look into the issue and provide feedback :raised_hands:|
+
 <br><br>
 
+**Replace needs author feedback label with needs attention label when the author comments on an issue**
+
 The purpose of the following label is to ensure the continued momentum of the issue and to be certain there are no delays in responses from the party that is helping solve the problem. Therefore when the Author will comment on the issue @msftbot bot will automatically apply the "needs attention :wave:" label to alert other parties to respond back to the author and expedite the issue. 
+
 **Event responder - issue comments**
-Replace needs author feedback label with needs attention label when the author comments on an issue.
+
 
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -66,10 +54,12 @@ Actions of the conditions applied above.
 
 <br><br>
 
+**Add Voting to a New Feature Request**
+
 When the author will first open the feature request to introduce an idea or suggestions that can either improve the performance or innovate WCT, it will be responded back with the message by the bot that will greet and Add the Thumbs as a voting feature. Then the rest of the community will checkout the feature whether it's worth implementing in WCT or not. If they like the feature they will add more thumps up on top of the existing one to ensure the feature request must be adopted. 
 
 **Event responder - issues**
-**Add Voting to New Feature Request**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Is action | **Action**: Opened |
@@ -85,10 +75,12 @@ When the author will first open the feature request to introduce an idea or sugg
 
 <br><br>
 
-
-"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the issue will be closed if it continued to be untouched or left without activity. The label provides greater visibility and triggers to make certain there are no delays. 
-**Scheduled search**
 **Add No Recent Activity label to issues**
+
+"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the issue will be closed if it continued to be untouched or left without activity. The label provides greater visibility and triggers to make certain there are no delays.
+
+**Scheduled search**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
@@ -106,9 +98,12 @@ When the author will first open the feature request to introduce an idea or sugg
 
 <br><br>
 
-Once the comment has been made in the issue the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the issue will continue and proceeds towards a possible solutions to the problem. 
-**Event responder - issue comments**
 **Remove no recent label when an issue is commented on**
+
+Once the comment has been made in the issue the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the issue will continue and proceeds towards a possible solutions to the problem.
+
+**Event responder - issue comments**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 |**Condition:** Has Label | Label: no-recent-activity :chart_with_downwards_trend:|
@@ -121,11 +116,12 @@ Once the comment has been made in the issue the "no-recent-activity :chart_with_
 
 <br><br>
 
+**Issues Needs Attention**
 
 "needs attention :wave:" label with the message will be triggered to alert all the stakeholders that are involved in certain issues. This ensures transparency that the issue has been sitting without any activity for 15 days. Therefore it is essential to establish procedures that will either provide further guidance or triage the issue to the appropriate team that can resolve the issue in a timely manner. 
 
 **Scheduled search**
-**Issues Needs Attention**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
@@ -141,10 +137,11 @@ Once the comment has been made in the issue the "no-recent-activity :chart_with_
 |**Action:** Add Reply | **Reply:** This issue has been marked as "needs attention :wave:" due to no activity for **15 days**.  Please triage the issue so the fix can be established. |
 <br><br>
 
+**Closing Stale Issues**
+
 At this point after many alerts to the issue that required author feedback if still hasn't been responded @msftbot will the run the search based on these conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the issue. Such actions are used to better manage the issue and to ensure the issues are just left open aren't cluttered in the repo and blocks the focus on issues that are active. 
 
 **Scheduled search**
-**Closing Stale Issues**
 
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -163,9 +160,11 @@ At this point after many alerts to the issue that required author feedback if st
 
 <br><br>
 
+**Closing Duplicate Issues**
+
 The conditions of this action runs regularly to ensure if there is an issue open with the Duplicate label, then @msftbot can respond to the issue with the message that the issue was open for 1 day and will be closed due to the fact it is a duplicate issue. 
 
-**Closing Duplicate Issues**
+**Scheduled search**
 
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -183,10 +182,11 @@ The conditions of this action runs regularly to ensure if there is an issue open
 
 <br><br>
 
+**Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing**
+
 If an author responds to the issues that were closed earlier due to lack of participation or inactivity @msfbot will run the following conditions and see if it was within 7 days and if it fulfills all the requirement @msftbot will automatically reopen the issue and add the needs attention label to ascertain to provide a fresh start and possible resolution of the issue with the help of deleting any label such as no-recent-activity :chart_with_downwards_trend: and needs author feedback :memo: to ensure issue looks clean and will be solved. 
 
 **Event responder - issue comments**
-**Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing**
 
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -208,11 +208,12 @@ If an author responds to the issues that were closed earlier due to lack of part
 |**Action:** Add label | **Label:** needs attention :wave: |
 <br><br>
 
+**Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
 
 The issues that were closed for over 7 days and then a non-contributor attempt to open the issues then the following condition will be applied to make certain that the issue does not re-open. When the non-contributor will comment on this closed issue @msftbot will respond to the non-contributor that they will have to open a new issue instead. Such action is to make certain that not everyone can open the closed issue since it could be closed for many reasons. The action is used to reduced unwanted issues to be open. 
 
 **Event responder - issue comments**
-**Issues that are closed with no activity for over 7 days, ask non-contributor to consider opening a new issue instead**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Is Action | **Action:** Created |
@@ -227,10 +228,12 @@ The issues that were closed for over 7 days and then a non-contributor attempt t
 
 <br><br>
 
+**Lock closed issues without activity for over 60 days**
+
 The action of this task is self-explanatory that any issues that will be closed for over 60 days will automatically be locked. This will ensure that no further activity is done in the closed issue since 60 days is used as a grace period where incase if any stakeholder still wants to comment or have questions. The conditions are performed by @msftbot every three hours to better manage the issues that are closed and keep the repository clean and well managed.  
 
 **Scheduled search**
-**Lock closed issues without activity for over 60 days**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
@@ -247,10 +250,12 @@ The action of this task is self-explanatory that any issues that will be closed 
 
 <br><br>
 
+**Opening Pull Request**
+
 When a contributor opens a Pull Request in WCT repository @msftbot runs the following conditions to ensure that its a very clean and transparent process for the author. Therefore when the PR is opened @microsoft will add the greetings message by automatically detecting the author's name via ${issueAuthor} which is another great feature of the bot service. This acknowledges and recognizes the author for their contribution and tags the selective members of the WCT team to who will perform the testing for the author. The purpose of this procedure is to ensure that the author feels welcomed and the WCT appreciates the time of the author therefore expediting the process faster to merge in the repo. 
 
 **Event responder - pull requests**
-**Opening Pull Request**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Is Action | **Action:** Opened |
@@ -262,8 +267,11 @@ When a contributor opens a Pull Request in WCT repository @msftbot runs the foll
 
 <br><br>
 
-This feature is used as an indicator to the issue that there is a PR open in the repository which will be merged to solve this issue. This is completed when the author opens a PR and includes the issue number in the PR template as #Fixes 1234 (1234 is used an issue number for demo purposes). Once these steps are performed @msftbot will automatically detect the issue mentioned in the PR and tag as "In-PR :rocket:" label to alert the author of the issue or stakeholders for transparency and visibility.
 **In-PR Label**
+
+This feature is used as an indicator of the issue that there is a PR open in the repository which will be merged to solve this issue. This is completed when the author opens a PR and includes the issue number in the PR template as #Fixes 1234 (1234 is used an issue number for demo purposes). Once these steps are performed @msftbot will automatically detect the issue mentioned in the PR and tag as "In-PR :rocket:" label to alert the author of the issue or stakeholders for transparency and visibility.
+
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **'In-PR' label:** Label |
@@ -271,10 +279,12 @@ This feature is used as an indicator to the issue that there is a PR open in the
 
 <br><br>
 
+**Add Needs Author feedback label to PR When Changes are Requested**
+
 When the author opens the PR, and the stakeholders respond to the PR seeking author's response the bot will run the following condition and apply the needs author feedback :memo: label in the PR. This is to alert the Author that the activity has occurred and they need to respond so the merge can be applied faster. The purpose of the task is to improve productivity and to provide possible resolution. 
  
 **Event responder - pull request reviews**
-**Add Needs Author feedback label to PR When Changes are Requested**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Is Action | **Action:** Submitted |
@@ -289,6 +299,8 @@ When the author opens the PR, and the stakeholders respond to the PR seeking aut
 
 
 **Remove Needs Author Feedback Label when Author Responds**
+
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Is activity sender| **User:** Author |
@@ -304,11 +316,12 @@ When the author opens the PR, and the stakeholders respond to the PR seeking aut
 
 <br><br>
 
+**Remove No Recent Activity when PR is commented ON**
 
 Once the comment has been made in the PR the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the PR will continue and proceeds towards possible solutions to the problem.
 
-Event responder Pull Request Comments
-**Remove No Recent Activity when PR is commented ON**
+**Event responder Pull Request Comments**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Has Label |**Label:** no-recent-activity :chart_with_downwards_trend: |
@@ -319,10 +332,14 @@ Event responder Pull Request Comments
 |**Action:** Remove Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
 
 <br><br>
+
+**Remove No Recent Activity when PR is reviewed**
 
 Once the PR is reviewed the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the PR will continue and proceeds towards possible solutions to the problem.
-Event responder - pull request reviews
-**Remove No Recent Activity when PR is reviewed**
+
+**Event responder - pull request reviews**
+
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Condition:** Has Label |**Label:** no-recent-activity :chart_with_downwards_trend: |
@@ -334,9 +351,12 @@ Event responder - pull request reviews
 
 <br><br>
 
-At this point after many alerts to the PR that required author feedback if still hasn't been responded @msftbot will the run the search based on the following conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the PR. Such actions are used to better manage the PR and to ensure that the PR's are just left open isn't cluttered in the repo and blocks the focus on PR's that are active. 
-Scheduled search
 **Close Stale PR**
+
+At this point after many alerts to the PR that required author feedback if still hasn't been responded @msftbot will the run the search based on the following conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the PR. Such actions are used to better manage the PR and to ensure that the PR's are just left open isn't cluttered in the repo and blocks the focus on PR's that are active. 
+
+**Scheduled search**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
@@ -353,8 +373,12 @@ Scheduled search
 
 <br><br>
 
-"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the PR will be closed if it continued to be untouched or left without activity or comments. The label provides greater visibility and triggers to make certain there are no delays. 
 **Add No Recent Activity Label to the PR**
+
+"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the PR will be closed if it continued to be untouched or left without activity or comments. The label provides greater visibility and triggers to make certain there are no delays. 
+
+**Scheduled search**
+
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
 | **Frequency:** <ul><li>- [x] Every 3 hours, 8 times a day</li></ul> |
@@ -369,6 +393,37 @@ Scheduled search
 |:----------: |:----------|
 |**Action:** Add Label | **Label:** no-recent-activity :chart_with_downwards_trend:|
 |**Action:** Add Reply | **Reply:** This pull request has been automatically marked as stale because it has been marked as requiring author feedback but has not had any activity for **15 days**. It will be closed if no further activity occurs **within 30 days of this comment**.|
+
+<br><br>
+
+
+**Auto-merge pull requests** 
+
+* Auto-merge label: auto merge
+* Minimum time in minutes pull request must be open before being auto-merged: 480
+* Merge Strategy: Merge
+<ul><li>- [x] Auto delete branches when possible after merge?</li></ul> 
+<ul><li>- [x] Remove auto-merge label when someone without write access pushes changes?</li></ul>
+
+This is the label that is used in active Pull Requests to give commands to signoff once all the requirements are met. (In our repo by default 2 reviewers need to sign-off and three checks including Toolkit/CI, WIP, and license/CLI need to be met. The wait time period for the PR is set for 8 hours since the time it was opened. Therefore once the 8 hours are complete and all the requirements are met, the PR will automatically be merged. If the 8 hours are not completed you will see the following message from @msftbot 
+
+"Hello user! Because this pull request has the auto-merge label, I will be glad to assist with helping to merge this pull request once all check-in policies pass.
+
+p.s. you can customize the way I help with merging this pull request, such as holding this pull request until a specific person approves. Simply @mention me (@msftbot) and give me an instruction to get started! Learn more here." 
+
+YOu can customize the auto-merge now by commanding the bot via comments. There are certain scenarios that can be used. 
+
+You can require limits of approval or a specific reviewer to proceed with the PR. 
+For example: Merge this Pull request if approved by 3 reviewers or Only merge if "@user" approves the PR. 
+
+You can require approval from a few people to several people. For Example: Only merge the PR if @user1, @user2, and @user3 approve OR Merge the PR if @user1, @user1, or @user1 approves. 
+
+Additionally, you can also hold the PR for a certain time period. For example, Hold the PR for another 8 hours, etc. 
+ 
+You can customize the phrases the way you like and if the bot misinterpreted the phrase you mentioned feel free to say "Nevermind" and it will disregard the last change. 
+
+
+Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
 
 ***
 
