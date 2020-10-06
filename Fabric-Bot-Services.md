@@ -300,6 +300,9 @@ When the author opens the PR, and the stakeholders respond to the PR seeking aut
 
 **Remove Needs Author Feedback Label when Author Responds**
 
+The purpose of the following label is to ensure the continued momentum of the PR and to be certain there are no delays in responses from the party that is helping solve the problem. Therefore when the Author comments or perform any activity on the issue @msftbot bot will automatically remove needs author feedback :memo: label and apply the "needs attention :wave:" label to alert other parties to respond back to the author and expedite the PR.
+
+**Event responder - pull requests**
 
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
