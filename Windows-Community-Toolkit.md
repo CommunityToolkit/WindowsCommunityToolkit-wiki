@@ -1,6 +1,7 @@
 ![](https://github.com/windows-toolkit/WindowsCommunityToolkit-design-assets/blob/master/Logos/GitHubSocialPreview.png)
+<br><br>
 
-The Windows Community Toolkit is a collection of helper functions, custom controls, and app services. It simplifies and demonstrates common developer patterns when building experiences for Windows 10.
+_The Windows Community Toolkit is a collection of helper functions, custom controls, and app services. It simplifies and demonstrates common developer patterns when building experiences for Windows 10._
 
 ## Build Status
 | Target | Branch | Status | Recommended package version |
