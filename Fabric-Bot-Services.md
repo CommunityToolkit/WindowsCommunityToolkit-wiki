@@ -4,15 +4,13 @@ You will see the Bot in action whether you open an Issue, PullRequest, Comment, 
 
 First, you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) to request permission to be added in the repo that you are looking to automate. 
 
-Once the request is approved, then you will be able to go to the list of selected repositories in fabric bot and customize the tasks you want to perform by applying certain conditions and actions. 
+Once the request is approved, then you will be able to go to the list of selected repositories in fabric bot and customize the tasks you want to perform by applying certain conditions and actions. The conditions are customizable and can be adjusted depending on the need or task you want to perform. 
 
 Here is how our repo currently uses the Fabric Bot :robot:
 
 **Needs Triage label**
 
-This has been done by setting the following conditions:
-
-The following conditions are used to perform certain tasks. Needs Triage is the most used label you will encounter throughout the repo. As the name suggests it is used to triage the issue, feature, or any request whenever you open in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. 
+The following conditions are used to perform certain tasks. Needs Triage is the most used label you will encounter throughout the repo. As the name suggests it is used to triage the issue, feature, or any request whenever it is first opened in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. The following conditions and actions are used in the Fabric Bot portal to perform this task. 
 
 **Event responder - issues**
 
