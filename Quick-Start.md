@@ -19,6 +19,8 @@ Install Visual Studio 2017 and up.
 ### [XAML Styler](https://marketplace.visualstudio.com/items?itemName=TeamXavalon.XAMLStyler)
 
 # Clone Repo
+> **Warning:** Try not to clone the repo into any location where the path is already significantly long. There is a windows an existing MAX path issue with windows (Files on paths longer than 256 cannot be found be the build tool chain). Within the project there are paths of 190 characters, so the shorter the base directory the better.
+
 ```
 git clone git@github.com:windows-toolkit/WindowsCommunityToolkit.git
 ```
