@@ -4,7 +4,7 @@ Pre-requisites: Download [Visual Studio](https://visualstudio.microsoft.com/vs/)
 
 Steps to review PR
 * Open Command Prompt or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
-* Locate the place where you want the clone repo to appear by using cd path. 
+* Locate the place where you want the WCT clone to appear by using cd path. 
 * Go to [Windows Community Toolkit](https://github.com/windows-toolkit/WindowsCommunityToolkit) repository and click on **Clone or Download** button to copy the URL.
 * Paste the link in Command Prompt by following the [Hub Command](https://hub.github.com/#developer) to Clone Windows Community Toolkit.
 * [Fork](https://hub.github.com/#contributor) the repo by following the command.
