@@ -2,4 +2,4 @@ It is critical to understand the kind of questions you might have. Since Windows
 
 There is a much better chance of getting your question answered on [Stackoverflow](https://stackoverflow.com/questions/tagged/windows-community-toolkit) where questions should be tagged with the tag windows-community-toolkit. 
 
-If there is any question related to missing documentation, please file an issue instead at [Microsoft Docs](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs/issues/new)
+If there is any question related to missing documentation, please file an issue instead at [Microsoft Docs](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs/issues/new) 📝
