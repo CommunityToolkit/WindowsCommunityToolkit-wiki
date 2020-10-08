@@ -23,4 +23,4 @@ Overall, it is essential to make sure the PR is on the feature branch of the for
 
 It is also significant to watch if the PR contains any breaking changes or not. If the PR contains a breaking change, check for the detailed description of the impact and migration path for the existing application.
 
-:rotating_light: Breaking changes are likely to be rejected. 
+:rotating_light: Breaking changes are likely to be rejected within minor release cycles or held until major versions. 
