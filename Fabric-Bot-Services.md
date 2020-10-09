@@ -6,11 +6,11 @@ To activate the bot you will have to reach out to the team via [email](mailto:ht
 
 Once the request is approved, then you will be able to go to the list of selected repositories in Fabric Bot and customize the tasks that need to be performed by applying certain conditions and actions. All the conditions are customizable and can be adjusted based on the need or task you want to perform. 
 
-Below are the tasks that the WCT team currently uses to automate the repository :robot:
+**Below are the tasks that the WCT team currently uses to automate the issues in the repository** :robot:
 
 ### Needs Triage label
 
-The following conditions are used to perform certain tasks. Needs Triage is the most used label you will encounter throughout the repo. As the name suggests it is used to triage the issue, feature, or any request whenever it is first opened in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. The following conditions and actions are used in the Fabric Bot portal to perform this task. 
+Needs Triage is the most used label which can be observed in all the issues of the repo. As the name suggests it is used to triage the issues, features, or any request whenever first opened in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. The following conditions and actions are used in the Fabric Bot portal to apply the label and a welcome message by @msftbot.
 
 **Event responder - issues**
 
@@ -247,6 +247,9 @@ The action of this task is self-explanatory that any issues that will be closed 
 |**Action:** Add Label | **Reason:** Resolved|
 
 <br><br>
+
+**Below are the tasks that the WCT team currently uses to automate the PR's in the repository** :robot:
+
 
 ### Opening Pull Request
 
