@@ -1,12 +1,12 @@
-[Fabric Bot Services](https://fabric-cp.azurewebsites.net/bot/) platform is being utilized throughout the Windows Community Toolkit repo to work as an assistant to ease the workflow and improve productivity.  
+[Fabric Bot Services](https://fabric-cp.azurewebsites.net/bot/) platform is being utilized in the Windows Community Toolkit repository as an automation tool to ease the workflow and improve productivity.  
 
-You will see the Bot in action whether you plan to open an Issue, submit a Pull Request, Make a Comment, label the issues or PR, etc
+You will see the Bot in action whether you plan to open an Issue, Submit a Pull Request, Make a Comment, label the PR's or issues, etc
 
 To activate the bot you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) regarding the permission to be added in the repo that you are looking to automate.
 
-Once the request is approved, then you will be able to go to the list of selected repositories in Fabric Bot and customize the tasks you want to perform by applying certain conditions and actions. The conditions are customizable and can be adjusted depending on the need or task you want to perform. 
+Once the request is approved, then you will be able to go to the list of selected repositories in Fabric Bot and customize the tasks that need to be performed by applying certain conditions and actions. All the conditions are customizable and can be adjusted based on the need or task you want to perform. 
 
-Here is how Windows Community Toolkit currently uses the Fabric Bot :robot:
+Below are the tasks that the WCT team currently uses to automate the repository :robot:
 
 ### Needs Triage label
 
