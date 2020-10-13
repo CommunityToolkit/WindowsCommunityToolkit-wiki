@@ -1,4 +1,6 @@
-Documentation is required when adding, removing, or updating a control or an API. To update the documentation, you must submit a separate Pull Request in the [WindowsCommunityToolkitDocs repository](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs) (use the master branch). **Both Pull Requests (code and docs) must be approved by the core team before either one is merged.**
+Documentation is required when adding, removing, or updating a control or an API. To update the documentation, you must submit a separate Pull Request in the [WindowsCommunityToolkitDocs repository](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs) (use the master branch).
+
+ **Both Pull Requests (code and docs) must be approved by the core team before either one is merged.**
 
 Make sure to update both Pull Requests with a link to each other.
 
