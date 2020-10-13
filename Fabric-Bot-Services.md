@@ -72,9 +72,9 @@ When the author will first open the feature request to introduce an idea or sugg
 
 <br><br>
 
-### Add No Recent Activity label to issues
+### Add No Recent Activity label to issues where the author has not responded
 
-"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the issue will be closed if it continued to be untouched or left without activity. The label provides greater visibility and triggers to make certain there are no delays.
+no-recent-activity :chart_with_downwards_trend: label will be tagged to the issues with existing needs author feedback :memo: label and no activity of 15 days. It is used to alert the author that there has not been any activity performed for 15 days. @Msftbot will also trigger a warning message that the issue will be closed if it continues to be untouched or left without activity. The label provides greater visibility to the community to make certain there are no delays.
 
 **Scheduled search**
 
@@ -97,7 +97,7 @@ When the author will first open the feature request to introduce an idea or sugg
 
 ### Remove no recent label when an issue is commented on
 
-Once the comment has been made in the issue the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the issue will continue and proceeds towards a possible solutions to the problem.
+Once the comment has been made in the existing issue with no-recent-activity :chart_with_downwards_trend: label the no-recent-activity :chart_with_downwards_trend: will automatically be removed by @Msftbot. This is a great step and reflects that productivity has improved.
 
 **Event responder - issue comments**
 
@@ -113,9 +113,9 @@ Once the comment has been made in the issue the "no-recent-activity :chart_with_
 
 <br><br>
 
-### Issues Needs Attention
+### Issue Needs Attention
 
-"needs attention :wave:" label with the message will be triggered to alert all the stakeholders that are involved in certain issues. This ensures transparency that the issue has been sitting without any activity for 15 days. Therefore it is essential to establish procedures that will either provide further guidance or triage the issue to the appropriate team that can resolve the issue in a timely manner. 
+@Msftbot will trigger needs attention :wave: label with the message to alert all the stakeholders that are involved in issues where there has been no activity for 15 days. This action alerts the stakeholders and ensures transparency that the issue has been sitting without any activity for 15 days. Therefore, it is essential to establish procedures that will either provide further guidance or triage the issue to the appropriate team that can resolve the issue in a timely manner. 
 
 **Scheduled search**
 
@@ -136,7 +136,7 @@ Once the comment has been made in the issue the "no-recent-activity :chart_with_
 
 ### Closing Stale Issues
 
-At this point after many alerts to the issue that required author feedback if still hasn't been responded @msftbot will the run the search based on these conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the issue. Such actions are used to better manage the issue and to ensure the issues are just left open aren't cluttered in the repo and blocks the focus on issues that are active. 
+@Msftbot runs the search and sees that if there has been any activity to the issues that have needs author feedback :memo:, no-recent-activity :chart_with_downwards_trend: labels, and no activity for 60 days. @Msftbot will close the issue if it matches these conditions. It shows that at this point many labels and alerts have been made by the bot encourage activities but there has been a lack of participation from the stakeholders. The action of closing stale issues are used to better manage the issues and to ensure the issues are not cluttered in the repo and block the focus on issues that are active. 
 
 **Scheduled search**
 
@@ -159,7 +159,7 @@ At this point after many alerts to the issue that required author feedback if st
 
 ### Closing Duplicate Issues
 
-The conditions of this action runs regularly to ensure if there is an issue open with the Duplicate label, then @msftbot can respond to the issue with the message that the issue was open for 1 day and will be closed due to the fact it is a duplicate issue. 
+The conditions of this action run regularly to ensure if there is an open issue with the duplicate :busts_in_silhouette: label. If the conditions are matched then @Msftbot responds to the issue with the message and closes the issue. This action is taken to ensure the issues are not cluttered in the repo and block the focus on issues that are active.
 
 **Scheduled search**
 
@@ -181,7 +181,7 @@ The conditions of this action runs regularly to ensure if there is an issue open
 
 ### Issues that are closed due to inactivity, reopens an issue if the author posts a reply within 7 days of the closing
 
-If an author responds to the issues that were closed earlier due to lack of participation or inactivity @msfbot will run the following conditions and see if it was within 7 days and if it fulfills all the requirement @msftbot will automatically reopen the issue and add the needs attention label to ascertain to provide a fresh start and possible resolution of the issue with the help of deleting any label such as no-recent-activity :chart_with_downwards_trend: and needs author feedback :memo: to ensure issue looks clean and will be solved. 
+If an author responds to the issue that was closed earlier due to lack of participation or inactivity, @Msfbot runs the following conditions and see if it was within 7 days and fulfills all the requirements. Then @Msftbot automatically reopens the issue and adds the needs attention :wave: label to provide a fresh start so there is a possible resolution this time. It also deletes any label such as no-recent-activity :chart_with_downwards_trend: and needs author feedback :memo: to ensure the issue looks clean and will be solved. 
 
 **Event responder - issue comments**
 
@@ -207,7 +207,7 @@ If an author responds to the issues that were closed earlier due to lack of part
 
 ### Issues that are closed with no activity for over 7 days, ask the non-contributor to consider opening a new issue instead
 
-The issues that were closed for over 7 days and then a non-contributor attempt to open the issues then the following condition will be applied to make certain that the issue does not re-open. When the non-contributor will comment on this closed issue @msftbot will respond to the non-contributor that they will have to open a new issue instead. Such action is to make certain that not everyone can open the closed issue since it could be closed for many reasons. The action is used to reduced unwanted issues to be open. 
+The issue that was closed for over 7 days and if a non-contributor attempts to open that issue then the following condition will be applied to make certain that the issue does not re-open. When the non-contributor will comment on this closed issue @Msftbot will respond to the non-contributor that they will have to open a new issue instead. Such action is triggered to make certain that not everyone can open the closed issue since it could be closed for any reason. The action is used to mitigate unwanted issues to be open. 
 
 **Event responder - issue comments**
 
@@ -227,7 +227,7 @@ The issues that were closed for over 7 days and then a non-contributor attempt t
 
 ### Lock closed issues without activity for over 60 days
 
-The action of this task is self-explanatory that any issues that will be closed for over 60 days will automatically be locked. This will ensure that no further activity is done in the closed issue since 60 days is used as a grace period where incase if any stakeholder still wants to comment or have questions. The conditions are performed by @msftbot every three hours to better manage the issues that are closed and keep the repository clean and well managed.  
+The action of this task is self-explanatory that any issue that was closed for over 60 days will automatically be locked. This will ensure that no further activity is done in the closed issue since 60 days is used as a grace period where incase if any stakeholder still wants to comment or have questions. The conditions are run by @Msftbot every three hours to better manage the issues that are closed and to keep the repository clean and well managed.  
 
 **Scheduled search**
 
