@@ -4,13 +4,13 @@ You will see the Bot in action whether you plan to open an Issue, Submit a Pull 
 
 To activate the bot you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) regarding the permission to be added in the repo that you are looking to automate.
 
-Once the request is approved, then you will be able to go to the list of selected repositories in Fabric Bot and customize the tasks that need to be performed by applying certain conditions and actions. All the conditions are customizable and can be adjusted based on the need or task you want to perform. 
+Once the request is approved the Fabric Bot link will be provided by the team in the email thread (if not you can ask for the link). Now you will be able to select a certain repository from the list and customize the tasks that need to be performed by applying certain conditions and actions. All the conditions are customizable and can be adjusted based on the need or task you want to perform. 
 
-**Below are the tasks that the WCT team currently uses to automate the issues in the repository** :robot:
+**Below are the essential tasks that the Windows Community Toolkit team currently uses to automate the issues in the repository** :robot:
 
 ### Needs Triage label
 
-Needs Triage is the most used label which can be observed in all the issues of the repo. As the name suggests it is used to triage the issues, features, or any request whenever first opened in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. The following conditions and actions are used in the Fabric Bot portal to apply the label and a welcome message by @msftbot.
+Needs Triage is the most used label which can be observed in all the issues of the repo. As the name suggests it is used to triage the issues, features, or any requests whenever first opened in the WCT. The purpose of the label is to create visibility and ensure the author that the issue has been received and will be triaged to the appropriate team to ensure faster response and possible resolution. @Msftbot will automatically apply the Needs triage label and a welcome message by setting the following conditions and actions in the Fabric Bot page.
 
 **Event responder - issues**
 
@@ -31,10 +31,9 @@ Needs Triage is the most used label which can be observed in all the issues of t
 
 ### Replace needs author feedback label with needs attention label when the author comments on an issue
 
-The purpose of the following label is to ensure the continued momentum of the issue and to be certain there are no delays in responses from the party that is helping solve the problem. Therefore when the Author will comment on the issue @msftbot bot will automatically apply the "needs attention :wave:" label to alert other parties to respond back to the author and expedite the issue. 
+The purpose of replacing the label with needs attention :wave: is to set faster responses to the issue and be certain that there are no delays from the stakeholders that are helping to solve the problem. Therefore, when the Author will comment on the issue, the @Msftbot bot will automatically apply the "needs attention :wave:" label to alert other parties to respond back to the author and expedite the issue. 
 
 **Event responder - issue comments**
-
 
 | **Conditions**   | **Actions**   |
 |:------------- |:----------: |
@@ -54,7 +53,7 @@ Actions of the conditions applied above.
 
 ### Add Voting to a New Feature Request
 
-When the author will first open the feature request to introduce an idea or suggestions that can either improve the performance or innovate WCT, it will be responded back with the message by the bot that will greet and Add the Thumbs as a voting feature. Then the rest of the community will checkout the feature whether it's worth implementing in WCT or not. If they like the feature they will add more thumps up on top of the existing one to ensure the feature request must be adopted. 
+When the author will first open the feature request to introduce an idea or suggestions that can either improve the performance or innovate WCT, @Msftbot will respond back with the Welcome Message and Add Thumbs Up :+1: as a way to vote for the feature. Then the rest of the community will test the feature whether it's worth implementing in WCT or not. If the community likes the feature they will add more thumps up :+1: on top of the initial one or comment to ensure the feature request must be adopted. 
 
 **Event responder - issues**
 
