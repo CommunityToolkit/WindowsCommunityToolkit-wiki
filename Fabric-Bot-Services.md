@@ -136,7 +136,7 @@ Once the comment has been made in the existing issue with no-recent-activity :ch
 
 ### Closing Stale Issues
 
-@Msftbot runs the search and sees that if there has been any activity to the issues that have needs author feedback :memo:, no-recent-activity :chart_with_downwards_trend: labels, and no activity for 60 days. @Msftbot will close the issue if it matches these conditions. It shows that at this point many labels and alerts have been made by the bot encourage activities but there has been a lack of participation from the stakeholders. The action of closing stale issues are used to better manage the issues and to ensure the issues are not cluttered in the repo and block the focus on issues that are active. 
+@Msftbot runs the search with conditions that if there has been any activity to the issue that has needs author feedback :memo:, no-recent-activity :chart_with_downwards_trend: labels, and no activity for 60 days. @Msftbot will close the issue if it matches these conditions. It shows that at this point many labels and alerts have been made by the bot to encourage and perform an action but there has been a lack of participation from the stakeholders. The action of closing the Stale PR is performed to better manage the repo and to ensure the PR's are not cluttered and block the focus on active ones. 
 
 **Scheduled search**
 
@@ -247,6 +247,18 @@ The action of this task is self-explanatory that any issue that was closed for o
 
 <br><br>
 
+### In-PR Label
+
+The In-PR :rocket: label feature is used as an indicator for the open issues that there is a relevant PR open in the repository which will be merged to solve the open issue. When the contributor opens a PR and includes an issue number in the PR Template as "#Fixes 1234" (Issue number = 1234 used for demo purposes). Once these steps are performed @Msftbot automatically detects the issue number mentioned in the PR and tags "In-PR :rocket:" label in the relevant open issue to alert the author of the issue or stakeholders that the issue will be resolved soon.
+
+
+| **Conditions**   | **Actions**   |
+|:------------- |:----------: |
+| **'In-PR' label:** Label |
+| **Enable 'Fixed' Label?** 'Fixed' Label: Label |
+
+<br><br>
+
 **Below are the essential tasks that the WCT team currently uses to automate the PR's in the repository** :robot:
 
 
@@ -267,21 +279,9 @@ When a contributor opens a Pull Request in the WCT repository, @Msftbot runs the
 
 <br><br>
 
-### In-PR Label
-
-This feature is used as an indicator of the issue that there is a PR open in the repository which will be merged to solve this issue. This is completed when the author opens a PR and includes the issue number in the PR template as #Fixes 1234 (1234 is used an issue number for demo purposes). Once these steps are performed @msftbot will automatically detect the issue mentioned in the PR and tag as "In-PR :rocket:" label to alert the author of the issue or stakeholders for transparency and visibility.
-
-
-| **Conditions**   | **Actions**   |
-|:------------- |:----------: |
-| **'In-PR' label:** Label |
-| **Enable 'Fixed' Label?** 'Fixed' Label: Label |
-
-<br><br>
-
 ### Add Needs Author feedback label to PR When Changes are Requested
 
-When the author opens the PR, and the stakeholders respond to the PR seeking the author's response the bot will run the following condition and apply the needs author feedback :memo: label in the PR. This is to alert the Author that the activity has occurred and they need to respond so the merge can be applied faster. The purpose of the task is to improve productivity and to provide possible resolution. 
+When the author opens the PR and the community members comment stating feedback or improvements; the bot runs the following conditions mentioned below and applies the needs author feedback :memo: label. The label is triggered to alert the Author that the activity has occurred in the submitted PR and the participants are seeking a response so the PR can be merged faster. The purpose of the task is to improve visibility, productivity, and to provide faster resolution. 
  
 **Event responder - pull request reviews**
 
@@ -298,9 +298,9 @@ When the author opens the PR, and the stakeholders respond to the PR seeking the
 <br><br>
 
 
-### Remove Needs Author Feedback Label when Author Responds
+### Remove Needs Author Feedback Label and Replace it with Needs Attention Label
 
-The purpose of the following label is to ensure the continued momentum of the PR and to be certain there are no delays in responses from the party that is helping solve the problem. Therefore when the Author comments or perform any activity on the issue @msftbot bot will automatically remove needs author feedback :memo: label and apply the "needs attention :wave:" label to alert other parties to respond back to the author and expedite the PR.
+The purpose of replacing the needs author feedback :memo: label with needs attention :wave: is to improve response timings in the PR and be certain that there are no delays from the stakeholders that are helping to solve the problem. Therefore, when the Author comments on the PR, the @Msftbot automatically applies the "needs attention :wave:" label to alert other parties to respond back and to expedite the PR. 
 
 **Event responder - pull requests**
 
@@ -319,9 +319,9 @@ The purpose of the following label is to ensure the continued momentum of the PR
 
 <br><br>
 
-### Remove No Recent Activity when PR is commented ON
+### Remove No Recent Activity when PR is commented On
 
-Once the comment has been made in the PR the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the PR will continue and proceeds towards possible solutions to the problem.
+Once the comment has been made in the PR, the "no-recent-activity :chart_with_downwards_trend:" will be removed by the @Msftbot. This ensures that the productivity of the PR will continue and will proceed towards possible resolution.
 
 **Event responder Pull Request Comments**
 
@@ -338,7 +338,7 @@ Once the comment has been made in the PR the "no-recent-activity :chart_with_dow
 
 ### Remove No Recent Activity when PR is reviewed
 
-Once the PR is reviewed the "no-recent-activity :chart_with_downwards_trend:" will be removed. This ensures that the productivity of the PR will continue and proceeds towards possible solutions to the problem.
+If there is an existing no-recent-activity label in the PR and the PR is reviewed, the no-recent-activity :chart_with_downwards_trend: label will be removed by the @Msftbot. This action reflects the improvement of participation and shows if the PR is successfully reviewed and tested without any error it will soon be merged. 
 
 **Event responder - pull request reviews**
 
@@ -356,7 +356,7 @@ Once the PR is reviewed the "no-recent-activity :chart_with_downwards_trend:" wi
 
 ### Close Stale PR
 
-At this point after many alerts to the PR that required author feedback if still hasn't been responded @msftbot will the run the search based on the following conditions and if any such issues are filtered it will respond the messaged regarding failure to respond to the issue and will automatically close the PR. Such actions are used to better manage the PR and to ensure that the PR's are just left open isn't cluttered in the repo and blocks the focus on PR's that are active. 
+@Msftbot runs the search with conditions that if there has been any activity to the PR that has needs author feedback :memo:, no-recent-activity :chart_with_downwards_trend: labels, and no activity for 60 days. @Msftbot will close the PR if it matches these conditions. It shows that at this point many labels and alerts have been made by the bot to encourage and perform an action but there has been a lack of participation from the stakeholders. The action of closing the Stale PR is performed to better manage the repo and to ensure the PR's are not cluttered and block the focus on active ones. 
 
 **Scheduled search**
 
