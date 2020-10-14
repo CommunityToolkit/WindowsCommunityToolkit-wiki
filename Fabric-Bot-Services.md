@@ -247,12 +247,12 @@ The action of this task is self-explanatory that any issue that was closed for o
 
 <br><br>
 
-**Below are the tasks that the WCT team currently uses to automate the PR's in the repository** :robot:
+**Below are the essential tasks that the WCT team currently uses to automate the PR's in the repository** :robot:
 
 
 ### Opening Pull Request
 
-When a contributor opens a Pull Request in WCT repository @msftbot runs the following conditions to ensure that its a very clean and transparent process for the author. Therefore when the PR is opened @microsoft will add the greetings message by automatically detecting the author's name via ${issueAuthor} which is another great feature of the bot service. This acknowledges and recognizes the author for their contribution and tags the selective members of the WCT team to who will perform the testing for the author. The purpose of this procedure is to ensure that the author feels welcomed and the WCT appreciates the time of the author therefore expediting the process faster to merge in the repo. 
+When a contributor opens a Pull Request in the WCT repository, @Msftbot runs the conditions mentioned below to ensure the simplicity and ease of the process. Therefore, when the PR is opened, @Msftbot adds the welcome message by calling out their name detecting it via ${issueAuthor}, and reviewers from the WCT team are automatically tagged to perform the testing of the PR. The purpose of identifying and mentioning the author's name in the message is to acknowledge and recognize for their contribution. The procedure is performed to ensure that the author feels welcomed and the community appreciates the time that the author invested in to further enhance the Windows Community Toolkit. 
 
 **Event responder - pull requests**
 
