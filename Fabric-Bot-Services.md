@@ -424,6 +424,9 @@ For example: Merge this Pull request if approved by 3 reviewers or Only merge if
  
 * You can also customize the phrases the way you like, and if the bot misinterprets the phrase that you mentioned, feel free to comment "Nevermind" and it will disregard the last change. 
 
+<br>
+
+The following conditions and actions need to be set in the Fabric Bot Services to make this work.
 
 * Auto-merge label: auto merge
 * Minimum time in minutes pull request must be open before being auto-merged: 480
