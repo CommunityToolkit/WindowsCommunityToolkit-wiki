@@ -5,6 +5,7 @@ You will see the Bot in action whether you plan to open an Issue, Submit a Pull 
 To activate the bot you will have to reach out to the team via [email](mailto:https://fabricbotservices@microsoft.com) regarding the permission to be added in the repo that you are looking to automate.
 
 Once the request is approved the Fabric Bot link will be provided by the team in the email thread (if not you can ask for the link). Now you will be able to select a certain repository from the list and customize the tasks that need to be performed by applying certain conditions and actions. All the conditions are customizable and can be adjusted based on the need or task you want to perform. 
+<br><br>
 
 **Below are the essential tasks that the Windows Community Toolkit team currently uses to automate the issues in the repository** :robot:
 
@@ -132,9 +133,10 @@ Once the comment has been made in the existing issue with no-recent-activity :ch
 |:----------: |:---------- |
 |**Action:** Add Label | **Label:** needs attention :wave:|
 |**Action:** Add Reply | **Reply:** This issue has been marked as "needs attention :wave:" due to no activity for **15 days**.  Please triage the issue so the fix can be established. |
+
 <br><br>
 
-### Closing Stale Issues
+### Close Stale Issues
 
 @Msftbot runs the search with conditions that if there has been any activity to the issue that has needs author feedback :memo:, no-recent-activity :chart_with_downwards_trend: labels, and no activity for 60 days. @Msftbot will close the issue if it matches these conditions. It shows that at this point many labels and alerts have been made by the bot to encourage and perform an action but there has been a lack of participation from the stakeholders. The action of closing the Stale PR is performed to better manage the repo and to ensure the PR's are not cluttered and block the focus on active ones. 
 
@@ -157,7 +159,7 @@ Once the comment has been made in the existing issue with no-recent-activity :ch
 
 <br><br>
 
-### Closing Duplicate Issues
+### Close Duplicate Issues
 
 The conditions of this action run regularly to ensure if there is an open issue with the duplicate :busts_in_silhouette: label. If the conditions are matched then @Msftbot responds to the issue with the message and closes the issue. This action is taken to ensure the issues are not cluttered in the repo and block the focus on issues that are active.
 
@@ -203,6 +205,7 @@ If an author responds to the issue that was closed earlier due to lack of partic
 |**Action:** Remove label | **Label:** no-recent-activity :chart_with_downwards_trend: |
 |**Action:** Remove label | **Label:** needs author feedback :memo: |
 |**Action:** Add label | **Label:** needs attention :wave: |
+
 <br><br>
 
 ### Issues that are closed with no activity for over 7 days, ask the non-contributor to consider opening a new issue instead
@@ -376,9 +379,9 @@ If there is an existing no-recent-activity label in the PR and the PR is reviewe
 
 <br><br>
 
-### Add No Recent Activity Label to the PR
+### Add No Recent Activity label to PR where the author has not responded
 
-"No Recent Activity" label will ensure and alert the author with labels and messages that they have not responded to or performed any activity for 15 days. It will also provide warnings that the PR will be closed if it continued to be untouched or left without activity or comments. The label provides greater visibility and triggers to make certain there are no delays. 
+no-recent-activity :chart_with_downwards_trend: label will be tagged to the PR that has needs author feedback :memo: label and no activity for 15 days. It is used to alert the author that there has not been any activity performed for 15 days. @Msftbot will also trigger a warning message that the issue will be closed if it continues to be untouched or left without an activity. The label provides greater visibility to the community to make certain that there are no delays.
 
 **Scheduled search**
 
@@ -399,34 +402,34 @@ If there is an existing no-recent-activity label in the PR and the PR is reviewe
 
 <br><br>
 
+### Auto-merge Pull Requests
 
-### Auto-merge pull requests
+This is the label that is used in active Pull Requests to give commands to signoff once all the requirements are met. (In our repo by default 2 reviewers need to sign-off and three checks such as Toolkit/CI, WIP, and license/CLI need to be met). The wait time period for the PR is set for 8 hours since the time it was opened. Therefore once the 8 hours are completed and all the requirements are met, the PR will automatically be merged. If the 8 hours are not completed you can customize the actions that you want to perform.
+
+When you will add Auto-merge label @Msftbot will trigger the following message and you can perform many actions before the PR is merged.
+
+"Hello user! Because this pull request has the auto-merge label, I will be glad to assist with helping to merge this pull request once all check-in policies pass.
+p.s. you can customize the way I help with merging this pull request, such as holding this pull request until a specific person approves. Simply @mention me (@msftbot) and give me an instruction to get started! Learn more here." 
+
+You can customize the auto-merge now by commanding the bot via comments. 
+
+There are various scenarios that can be used. It is completely up to you however you want to customize the action.
+
+* You can require limits of approval or a specific reviewer to proceed with the PR.
+For example: Merge this Pull request if approved by 3 reviewers or Only merge if "@user" approves the PR. 
+
+* You can require approval from a few people to several people. For Example: Only merge the PR if @user1, @user2, and @user3 approve OR Merge the PR if @user1, @user1, or @user1 approves. 
+
+* Additionally, you can also hold the PR for a certain time period. For example, Hold the PR for another 8 hours, etc. 
+ 
+* You can also customize the phrases the way you like, and if the bot misinterprets the phrase that you mentioned, feel free to comment "Nevermind" and it will disregard the last change. 
+
 
 * Auto-merge label: auto merge
 * Minimum time in minutes pull request must be open before being auto-merged: 480
 * Merge Strategy: Merge
 <ul><li>- [x] Auto delete branches when possible after merge?</li></ul> 
 <ul><li>- [x] Remove auto-merge label when someone without write access pushes changes?</li></ul>
-
-This is the label that is used in active Pull Requests to give commands to signoff once all the requirements are met. (In our repo by default 2 reviewers need to sign-off and three checks including Toolkit/CI, WIP, and license/CLI need to be met. The wait time period for the PR is set for 8 hours since the time it was opened. Therefore once the 8 hours are complete and all the requirements are met, the PR will automatically be merged. If the 8 hours are not completed you will see the following message from @msftbot 
-
-"Hello user! Because this pull request has the auto-merge label, I will be glad to assist with helping to merge this pull request once all check-in policies pass.
-
-p.s. you can customize the way I help with merging this pull request, such as holding this pull request until a specific person approves. Simply @mention me (@msftbot) and give me an instruction to get started! Learn more here." 
-
-YOu can customize the auto-merge now by commanding the bot via comments. There are certain scenarios that can be used. 
-
-You can require limits of approval or a specific reviewer to proceed with the PR. 
-For example: Merge this Pull request if approved by 3 reviewers or Only merge if "@user" approves the PR. 
-
-You can require approval from a few people to several people. For Example: Only merge the PR if @user1, @user2, and @user3 approve OR Merge the PR if @user1, @user1, or @user1 approves. 
-
-Additionally, you can also hold the PR for a certain time period. For example, Hold the PR for another 8 hours, etc. 
- 
-You can customize the phrases the way you like and if the bot misinterpreted the phrase you mentioned feel free to say "Nevermind" and it will disregard the last change. 
-
-
-Replacing Needs Author Feedback label with Needs Attention: The purpose of both of these labels is to improve communication by triggering the labels to involve both the parties to make certain the issue or feature gets resolves in a timely manner. When the Issue or PR is received and the community member has questions they can comment which triggers the author's feedback label which creates visibility for the author to respond. The method can also be applied when the Author comments or response which triggers a Need Attention label for the community members to respond. 
 
 ***
 
