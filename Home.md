@@ -1,6 +1,8 @@
-## Welcome to the Windows Community Toolkit 💼
+# Welcome to the Wiki page of Windows Community Toolkit 💼
 
-Welcome to the Wiki page of Windows Community Toolkit :raised_hands:  We are glad you are here and one step closer to learn more about this amazing platform and ways to contribute. The section on the right will help you navigate and answer all the questions you may have regarding the toolkit. You can submit an issue to suggest any changes, introduce features, file bug reports, or leave a Windows Community Toolkit related question. You can also submit a pull request and contribute many other ways listed in the Contribution Section to the right.
+We are glad you are here and one step closer to learn more about this amazing platform and the ways you can contribute. 
+
+The section on the right will help you navigate and answer all the questions you may have regarding the toolkit. You can submit an issue to suggest any changes, introduce features, file bug reports, or leave a Windows Community Toolkit related question. You can also submit a pull request and contribute many other ways listed in the Contribution Section to the right.
 
 Every single contribution of yours will improve and strengthen the performance of the toolkit. Let's jump into the ride 🎢 
 
