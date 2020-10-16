@@ -1,6 +1,7 @@
 ![](https://github.com/windows-toolkit/WindowsCommunityToolkit-design-assets/blob/master/Logos/windows_toolkit_sticker_4x4-1.png)
 ### About Windows Community Toolkit
 
+* [[Home]] 
 * [[Welcome]] 🙏
 * [[Windows Community Toolkit]]
 * [[Features]] 📬
