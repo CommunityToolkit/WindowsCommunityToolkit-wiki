@@ -1,4 +1,4 @@
-In general, the project follows the [C# Coding Convention](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) and [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/). We use tools like StyleCop to help enforce some of the rules below. 
+In general, the project follows the [C# Coding Convention](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) and [Framework Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/). We use tools like StyleCop to help enforce some of the rules mentioned below. 
 
 * DO NOT require that users perform any extensive initialization before they can start programming basic scenarios.
 * DO provide good defaults for all values associated with parameters, options, etc.
