@@ -1,18 +1,18 @@
 Reviewing PR’s is essential before merging any changes regarding bug fixes, features, doc improvements etc. You can find the current list of PR’s [here](https://github.com/windows-toolkit/WindowsCommunityToolkit/pulls).
  
-Pre-requisites: Download [Visual Studio](https://visualstudio.microsoft.com/vs/) 2017 or 2019, Install [Windows Community Toolkit Sample App](https://www.microsoft.com/en-us/p/windows-community-toolkit-sample-app/9nblggh4tlcq?rtc=1&activetab=pivot:overviewtab), [Install Git](https://github.com/github/hub#installation), [Install Hub](https://hub.github.com/#install)
+**Pre-requisites:** Download [Visual Studio](https://visualstudio.microsoft.com/vs/) 2017 or 2019, Install [Windows Community Toolkit Sample App](https://www.microsoft.com/en-us/p/windows-community-toolkit-sample-app/9nblggh4tlcq?rtc=1&activetab=pivot:overviewtab), [Install Git](https://github.com/github/hub#installation), [Install Hub](https://hub.github.com/#install)
 
 Steps to review PR
 * Open Command Prompt or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab)
-* Locate the place where you want the WCT clone to appear by using cd path. 
-* Go to [Windows Community Toolkit](https://github.com/windows-toolkit/WindowsCommunityToolkit) repository and click on **Clone or Download** button to copy the URL.
+* Locate the place where you want the WCT clone to appear by using the cd path. 
+* Go to [Windows Community Toolkit](https://github.com/windows-toolkit/WindowsCommunityToolkit) repository and click on **Code** button to copy the HTTPS or SSH URL.
 * Paste the link in Command Prompt by following the [Hub Command](https://hub.github.com/#developer) to Clone Windows Community Toolkit.
 * [Fork](https://hub.github.com/#contributor) the repo by following the command.
 * Checkout PR by using [hub pr checkout](https://hub.github.com/hub-pr.1.html#synopsis) Command
 * Open the Visual Studio 
 * Click on “Open a project or solution” 
 * Locate the cloned repository folder in the local machine and select .sln file to open the solution.
-* You will see the PR checkout branch in the bottom right corner of the Visual Studio page. (By default it should have been on master branch but since the PR checkout command has been performed; therefore, it’s on the branch that is ready to be tested).
+* You will see the PR checkout branch in the bottom right corner of the Visual Studio page. (By default it should have been on the master branch but since the PR checkout command has been performed; therefore, it’s on the branch that is ready to be tested).
 * Now run the Microsoft.Toolkit.Uwp.SampleApp and Open [Windows Community Toolkit Sample App](https://www.microsoft.com/en-us/p/windows-community-toolkit-sample-app/9nblggh4tlcq?rtc=1) as well. 
 * Review and test the changes side by side.
 * Once approved signoff by leaving feedback and results. 
