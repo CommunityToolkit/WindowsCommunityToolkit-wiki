@@ -26,7 +26,7 @@ Feed URL: `https://pkgs.dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging/
 
 That said, the Pull Request feed is a great feed to help other developers test and review their features before they are added to the Toolkit. To find the appropriate package version, just check for the last successful build of the PR at the bottom of the page in the PR checks. You can expand it by clicking on `Show all checks` and then finding the version next to the `Toolkit-CI` check, as seen here (TODO):
 
-📝 Note, the package in the feed will have a '.g' replacing the '+' seen in this visual for the PR.
+📝 Note, the package in the feed will have a '.g' replacing the '+' seen in this visual for the PR. [See Nerdbank Docs here](https://github.com/dotnet/Nerdbank.GitVersioning/blob/master/doc/dotnet.md).
 
 ## WinUI 3 Previews
 
