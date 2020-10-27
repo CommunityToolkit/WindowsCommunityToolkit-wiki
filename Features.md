@@ -1,3 +1,3 @@
 The [Features list](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs/blob/master/docs/toc.md#controls) refers to all the currently available features that can be found in the Windows Community Toolkit. 
 
-Most of the features should work with the Falls Creator Update SDK 16299 and above; however, refer to the specific documentation on each feature for more information.
+Most of the features should work with the 17763 SDK (1809) and above (as of version 7.0); however, refer to the [specific documentation](https://aka.ms/windowstoolkitdocs) on each feature for more information.
