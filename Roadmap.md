@@ -2,4 +2,10 @@ The Windows Community Toolkit team and community members are always working hard
 
 Read what we [plan for iterations](https://github.com/windows-toolkit/WindowsCommunityToolkit/milestones), and feel free to ask questions.
 
-By adding this ([NuGet repo](https://dotnet.myget.org/F/uwpcommunitytoolkit/api/v3/index.json) | [Gallery](https://dotnet.myget.org/gallery/uwpcommunitytoolkit)) to your NuGet sources in Visual Studio, you can also get pre-release packages of upcoming versions.
+Check out the [[Preview Packages]] section to find out more about trying out features of the toolkit before our official releases.
+
+General Roadmap:
+
+- 7.0 (~Before End of 2020) - MVVM Toolkit and General Technical Clean-up
+- Improve Samples & Docs
+- 8.0 (2021) - Build on top of WinUI 3 (will change namespace & package names) when WinUI 3 supports both Desktop & UWP development on latest .NET.
