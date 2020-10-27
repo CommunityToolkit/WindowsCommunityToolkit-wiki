@@ -10,4 +10,10 @@ Every single contribution of yours will improve and strengthen the performance o
 ### Feedback and Requests
 Please use [Githhub Issues](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues) for bug reports and feature requests. For general questions and support, please use [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-community-toolkit) where questions should be tagged with the tag windows-community-toolkit.
 
+### Social Media
 
+Use the [`#WindowsCommunityToolkit`](https://twitter.com/search?q=%23WindowsCommunityToolkit&f=live) hashtag on Twitter to share what you're working on with the community! You can also find the Toolkit on the web in the following locations:
+
+- Windows Blogs - Release Overviews - [Search for Windows Community Toolkit](https://blogs.windows.com/?s=Windows+Community+Toolkit)
+- Dev Blogs - [Other Articles](https://devblogs.microsoft.com/pax-windows/)
+- We may sometimes add to the [.NET Foundation Newsletter](https://github.com/dotnet-foundation/website/blob/master/input/blog/posts/_current-newsletter-draft.md) too!
