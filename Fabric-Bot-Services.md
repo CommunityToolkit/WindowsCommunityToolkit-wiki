@@ -414,11 +414,13 @@ You can customize the auto-merge now by commanding the bot via comments.
 There are various scenarios that can be used. It is completely up to you however you want to customize the action.
 
 * You can require limits of approval or a specific reviewer to proceed with the PR.
-For example: Merge this Pull request once it is approved by 3 reviewers or Only merge if "@user" approves the PR. 
+<br> **For Example:** Merge this Pull request once it is approved by 3 reviewers or Only merge if "@user" approves the PR. 
 
-* You can require approval from a few people to several people. For Example: Only merge the PR if @user1, @user2, and @user3 approve OR Merge the PR if @user1, @user1, or @user1 approves. 
+* You can require approval from a few people to several people. 
+<br> **For Example:** Only merge the PR if @user1, @user2, and @user3 approve OR Merge the PR if @user1, @user1, or @user1 approves. 
 
-* Additionally, you can also hold the PR for a certain time period. For example, Hold the PR for another 8 hours, etc. 
+* Additionally, you can also hold the PR for a certain time period. 
+<br> **For Example:** Hold the PR for another 8 hours, etc. 
  
 * You can also customize the phrases the way you like, and if the bot misinterprets the phrase that you mentioned, feel free to comment "Nevermind" and it will disregard the last change. 
 
