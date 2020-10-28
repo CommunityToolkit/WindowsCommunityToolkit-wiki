@@ -10,11 +10,12 @@ Once you do a search, you should see a list similar to the one below (versions m
 | :------------- | :----------: |
 |  Microsoft.Toolkit | .NET Standard NuGet package containing common code   |
 | Microsoft.Toolkit.HighPerformance   | .NET Standard and .NET Core NuGet package with performance-oriented helpers, extensions, etc |
+| Microsoft.Toolkit.MVVM | (In Preview) .NET Standard MVVM Library, [read more here](https://aka.ms/MVVMToolkit) |
 |  Microsoft.Toolkit.Parsers | 	.NET Standard NuGet package containing cross-platform parsers, such as Markdown   |
-|  Microsoft.Toolkit.Services | .NET Standard NuGet package containing cross-platform services helpers, such as LinkedIn, Microsoft Graph, Twitter and more   |
-|  Microsoft.Toolkit.Uwp | Main NuGet package includes code only helpers such as Colors conversion tool, Storage file handling, a Stream helper class, etc.   |
+|  Microsoft.Toolkit.Services | (Deprecating) .NET Standard NuGet package containing cross-platform services helpers, such as LinkedIn, Microsoft Graph, Twitter and more   |
+|  Microsoft.Toolkit.Uwp | Main NuGet package includes code only helpers such as Color conversions, Storage file handling, a Stream helper class, etc.   |
 |  Microsoft.Toolkit.Uwp.Notifications | 	Notifications Package - Generate tile, toast, and badge notifications for Windows 10 via code. Includes IntelliSense support to avoid having to use the XML syntax   |
-|  Microsoft.Toolkit.Uwp.UI | UI Packages - XAML converters, Visual tree extensions, and other extensions and helpers for your XAML UI   |
+|  Microsoft.Toolkit.Uwp.UI | UI Packages - XAML converters, Visual tree extensions, State Triggers, and other extensions and helpers for your XAML UI   |
 |  Microsoft.Toolkit.Uwp.UI.Animations | 	Animations and Composition behaviors such as Blur, Fade, Rotate, etc.   |
 |  Microsoft.Toolkit.Uwp.UI.Controls | 	XAML Controls such as RadialGauge, RangeSelector, etc. |
 |  Microsoft.Toolkit.Uwp.UI.Controls.DataGrid | XAML DataGrid control   |
