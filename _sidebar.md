@@ -22,6 +22,7 @@
 * [[Got Questions]] ❓
 * [[Fix Bug]] 🐛
 * [[Good First Issue]] 👌
+* [[Help Wanted]] 🙋
 * [[Contribute new Feature]] 📫
 * [[Create Pull Request]] 🔥
 * [[Submit Pull Request]] 🚀
