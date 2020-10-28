@@ -1,4 +1,5 @@
 ![](https://github.com/windows-toolkit/WindowsCommunityToolkit-design-assets/blob/master/Logos/windows_toolkit_sticker_4x4-1.png)
+
 ### About Windows Community Toolkit
 
 * [[Home]] 🏠 
@@ -11,7 +12,7 @@
 
 ### Usage
 
-* [[Windows Community Toolkit Sample App]] 📱
+* [[Sample App]] 📱
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
@@ -36,6 +37,8 @@
 * [[Documentation]] 📃
 
 ### Development/Testing
+
 * [[Quick Start]]
 * [[Required Dependencies]] 📌
+* [[Sample Development]] 📱
 * [[Fabric Bot Services]] 🤖
