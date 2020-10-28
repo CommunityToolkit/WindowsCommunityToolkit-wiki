@@ -1,0 +1,3 @@
+Besides working on any [issues](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues) that you find suitable and may fit your understanding there are also some issues that are labeled as [help wanted](https://github.com/windows-toolkit/WindowsCommunityToolkit/labels/help%20wanted%20%3Araising_hand%3A). The level of complexity in this list of issues can vary but if you have an advanced level of experience you can also jump in to solve these issues.
+
+It is significant to work collaboratively which makes this amazing platform so unique. This a place where you can meet new people and work together towards building and expanding WCT. The community is encouraged and motivated to fuel the WCT by looking into innovative ideas and be able to provide solutions.
