@@ -16,15 +16,16 @@
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
+* [[Got Questions]] ❓
 
 ### Contribution
 
 * [[Things to consider before submitting any report]] ✔️
 * [[Got Questions]] ❓
-* [[Fix Bug]] 🐛
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
-* [[Contribute new Feature]] 📫
+* [[Bug Fixes]] 🐛
+* [[Feature Requests]] 📫
 * [[Create Pull Request]] 🔥
 * [[Submit Pull Request]] 🚀
 * [[Add Documentation]] 📝
