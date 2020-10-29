@@ -35,7 +35,6 @@
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
 * [[Avoid Roadblocks]] 🚧
-* [[Documentation]] 📃
 
 ### Development/Testing
 
