@@ -1,6 +1,6 @@
 Reviewing PR’s is essential before merging any changes regarding bug fixes, features, doc improvements etc. You can find the current list of PR’s [here](https://github.com/windows-toolkit/WindowsCommunityToolkit/pulls).
 
-Each PR will also build [[Preview Packages]], so if you're familiar with NuGet and already using the Toolkit, you can easily try new features with these builds. Otherwise, to build a PR yourself, follow the steps below.
+🌙 Each PR will also build [[Preview Packages]], so if you're familiar with NuGet and already using the Toolkit, you can easily try new features with these builds. Otherwise, to build a PR yourself, follow the steps below.
  
 **Pre-requisites:** Download [Visual Studio](https://visualstudio.microsoft.com/vs/) 2017 or 2019, Install [Windows Community Toolkit Sample App](https://www.microsoft.com/en-us/p/windows-community-toolkit-sample-app/9nblggh4tlcq?rtc=1&activetab=pivot:overviewtab), [Install Git](https://github.com/github/hub#installation), [Install Hub](https://hub.github.com/#install)
 
