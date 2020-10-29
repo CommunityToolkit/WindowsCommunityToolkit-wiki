@@ -8,7 +8,7 @@ Every single contribution of yours will improve and strengthen the performance o
 
 
 ### Feedback and Requests
-Please use [Githhub Issues](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues) for bug reports and feature requests. For general questions and support, please use [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-community-toolkit) where questions should be tagged with the tag `windows-community-toolkit`. You can also chat with community members about the project in our [UWP Community Discord](https://discord.gg/zBA5aCn) channel.
+Please use [GitHub Issues](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues) for bug reports and feature requests. For general questions and support, please use [Stack Overflow](https://stackoverflow.com/questions/tagged/windows-community-toolkit) where questions should be tagged with the tag `windows-community-toolkit`. You can also chat with community members about the project in our [UWP Community Discord](https://discord.gg/zBA5aCn) channel.
 
 ### Social Media
 
