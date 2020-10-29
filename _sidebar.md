@@ -16,12 +16,12 @@
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
-* [[Got Questions]] ❓
+* Have [[Questions]] ❓
 
 ### Contribution
 
 * [[Things to consider before submitting any report]] ✔️
-* [[Got Questions]] ❓
+* Have [[Questions]] ❓
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
 * [[Bug Fixes]] 🐛

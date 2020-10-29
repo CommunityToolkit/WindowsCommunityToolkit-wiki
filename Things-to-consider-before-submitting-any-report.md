@@ -5,3 +5,7 @@
 * **Do not open a new issue if it already exists in the repository.** Go to the Windows Community Toolkit [issues](https://github.com/windows-toolkit/WindowsCommunityToolkit/issues), and perform a search by applying keyword in the search area. This method should provide results of the relevant open issues. 
 
 * **Do not delete the template.** By having consistency in our bug reports, it helps us identify the key information around the issue you may be facing. This will let us or the community help you more effectively.
+
+* **Now What?**
+
+\> [[Questions]] | [[Bug Fixes]] | [[Feature Requests]]
