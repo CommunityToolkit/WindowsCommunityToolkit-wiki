@@ -1,3 +1,5 @@
+# Things to Consider before Submitting an Issue
+
 * Please make certain to reproduce the issue. It is essential to identify the issue and gather more data to be certain if it is a bug or not. With clear reproducible steps (especially in the [[Sample App]]), it might be a simple fix, and can then be resolved more easily.
 
 * It is essential to open the issue in an appropriate Toolkit repository by clicking on the [Windows Toolkit](https://github.com/windows-toolkit) page. If the issue does not apply to Windows Community Toolkit please identify the appropriate repository where the bug applies. 

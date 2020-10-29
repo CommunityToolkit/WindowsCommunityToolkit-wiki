@@ -20,7 +20,7 @@
 
 ### Contribution
 
-* [[Things to consider before submitting any report]] ✔️
+* Things to consider before [[Submitting an Issue]] ✔️
 * Have [[Questions]] ❓
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
