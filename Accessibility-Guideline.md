@@ -11,7 +11,9 @@ We'll follow this guideline to ensure the basic accessibility features for each 
 * Focusable elements must have a visual focus indicator. It's usually a rectangle shape around the control's normal bounding rectangle.
 
 ## Narrator
-* Controls must support the narrator.
+* Controls must support the [Narrator](https://support.microsoft.com/en-us/windows/chapter-1-introducing-narrator-7fe8fd72-541f-4536-7658-bfc37ddaf9c6).
 
 ## Naming conventions
-* We are following the coding guidelines of .NET Core Foundational libraries.
+* We are following the coding guidelines of .NET Core Foundational libraries. See [[Coding Style and Conventions]].
+
+The [Accessibility Insights](https://accessibilityinsights.io/docs/en/windows/overview/) tool can help with identifying some of these concerns.
