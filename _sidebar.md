@@ -16,12 +16,10 @@
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
-* Have [[Questions]] ❓
 
 ### Contribution
 
-* Things to consider before [[Submitting an Issue]] ✔️
-* Have [[Questions]] ❓
+* [[Submitting an Issue]] ✔️
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
 * [[Bug Fixes]] 🐛
@@ -35,6 +33,7 @@
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
 * [[Avoid Roadblocks]] 🚧
+* [[Questions]] ❓
 
 ### Development/Testing
 
