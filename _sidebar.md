@@ -41,3 +41,11 @@
 * [[Required Dependencies]] 📌
 * [[Sample Development]] 📱
 * [[Fabric Bot Services]] 🤖
+
+### Project Structure
+
+* [[How the Project is Organized]] 🗄️
+* [[.Net Foundation Role]] 🕵
+* [[Join Toolkit Organization]] 🚪
+* [[Hall of Fame]] 👑
+* [[Why is Microsoft supporting the project?]] 🤝
