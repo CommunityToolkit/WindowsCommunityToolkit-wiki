@@ -1,6 +1,6 @@
-<!-- When opening a PR, start by forking this repository. Then, you'll need to create a new branch derived from the forked `master` branch. 
+<!-- When opening a PR, start by forking this repository. Then, you'll need to create a new branch derived from the forked `main` branch. 
 
-Once you have established all the changes in the forked repository then open the PR in the [WindowsCommunityToolkit-wiki](https://github.com/windows-toolkit/WindowsCommunityToolkit-wiki/pulls) which will be synced to master of the repository -->
+Once you have established all the changes in the forked branch then sync your PR with the main branch of [WindowsCommunityToolkit-wiki](https://github.com/windows-toolkit/WindowsCommunityToolkit-wiki/pulls) repository -->
 
 
 ## Fixes # 
@@ -15,7 +15,7 @@ Once you have established all the changes in the forked repository then open the
 
 Please check if your PR fulfills the following requirements:
 
-- [ ] Correctly picked the forked new branch to base the change off (`master`)
+- [ ] Correctly picked the forked new branch to base the change off (`main`)
 - [ ] Ran against a spell and grammar checker 
 
 
