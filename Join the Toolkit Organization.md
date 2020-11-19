@@ -1,4 +1,4 @@
-# Join the Toolkit Organization
+# Join-the-Toolkit-Organization
 
 
 WCT team is always encouraging new talent and hard work to lead by example and inspire the community to expand. In Windows Community Toolkit each member is highly inspired towards bringing change and lead by example and making a difference in the community whether building UWP apps for Windows 10 and enhancing the toolkit to help sustain their projects or helping the communtiy innovate. All the creativity, contribution, and input are valued. 
