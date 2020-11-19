@@ -9,6 +9,7 @@
 * [[Principles]] ☑️
 * [[Roadmap]] 🗺
 * [[.NET Foundation]]
+* [[Why Microsoft supports this project?]] 🤝
 
 ### Usage
 
@@ -16,6 +17,7 @@
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
+* [[Questions]] ❓
 
 ### Contribution
 
@@ -33,11 +35,10 @@
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
 * [[Avoid Roadblocks]] 🚧
-* [[Questions]] ❓
 
 ### Development/Testing
 
-* [[Quick Start]]
+* [[Quick Start]] ⚡
 * [[Required Dependencies]] 📌
 * [[Sample Development]] 📱
 * [[Fabric Bot Services]] 🤖
@@ -45,7 +46,5 @@
 ### Project Structure
 
 * [[How the Project is Organized]] 🗄️
-* [[.Net Foundation Role]] 🕵
 * [[Join Toolkit Organization]] 🚪
-* [[Hall of Fame]] 👑
-* [[Why is Microsoft supporting the project?]] 🤝
+* [[Hall of Fame]] 🏆
