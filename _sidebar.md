@@ -10,6 +10,7 @@
 * [[Roadmap]] 🗺
 * [[.NET Foundation]]
 * [[Why Microsoft supports this project?]] 🤝
+* [[License]] 📄
 
 ### Usage
 
