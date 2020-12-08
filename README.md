@@ -17,3 +17,5 @@ This repo also serves as a public discussion area for issues related to the proj
 If you would like to propose any suggestions or changes to specific parts of the guidance in this repo or the project operation itself, please file an issue here.
 
 We also welcome any Pull Requests to this repo with improvements to our Windows Community Toolkit developer guidance and guidelines.
+
+📝 New pages can be added by creating a new Markdown file in the root of this repo. Be sure to use '-' instead of spaces in filenames. Also be sure to add a link to the appropriate section of the `_sidebar.md` file index so that it can be discovered. Be sure to use double brackets around the \[[file name]] without extension and *with spaces* to create a page link.
