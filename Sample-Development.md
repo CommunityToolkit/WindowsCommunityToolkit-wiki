@@ -174,6 +174,16 @@ Select the category where you want your page to be listed and add the following 
 ]
 ```
 
+`Name` will not only be the name of the sample as shown within the Sample App, but also the Directory under the `SamplePages\` folder that will be used as a root for any other specified resources (e.g. `CodeFile`, `XamlCodeFile`).
+
+`Type` is optional for XAML Only samples, otherwise the `Type` should be found within the `Microsoft.Toolkit.Uwp.SampleApp.SamplePages` namespace.
+
+`Icon` is always an absolute path to the Icon file (as it is bound directly via XAML).
+
+`CodeFile` and `XamlCodeFile` both support the relative path with `SamplePages/Name/` being automatically prefixed. Otherwise, you can specify an absolute path within the project by starting the string with a `/`.
+
+See more info on other properties below.
+
 ## Thumbnail Images
 
 > NOTE: If creating a new icon, follow the [Thumbnail Style Guide and templates](https://github.com/windows-toolkit/WindowsCommunityToolkit-design-assets)
@@ -201,7 +211,7 @@ If the specified type is not found on the system running the sample app the samp
 
 Every API must be accompanied by Markdown documentation in the [documentation repository](..\contributing.md#docs).
 
-Use the DocumentationUrl property to add a link to the raw documentation in *samples.json*. Please follow the following pattern:
+Use the `DocumentationUrl` property to add a link to the raw documentation in *samples.json*. Please follow the following pattern:
 
 `https://raw.githubusercontent.com/MicrosoftDocs/WindowsCommunityToolkitDocs/{branch}/docs/{folder/file.md}`
 
@@ -218,4 +228,4 @@ Use the DocumentationUrl property to add a link to the raw documentation in *sam
 
 ## CodeUrl
 
-The value of CodeUrl is modified when the app is built in release mode. The branch is automatically changed to **master**. This allows you to test the link in debug while pointing to dev.
+The value of `CodeUrl` is modified when the app is built in release mode. The branch is automatically changed to **master**. This allows you to test the link in debug while pointing to dev.
