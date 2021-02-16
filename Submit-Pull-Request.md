@@ -14,4 +14,4 @@ Please make certain that the PR successfully passes all three status check requi
 
 If the PR passes all the requirements above and reviewers have signed off, the PR will be merged. 
 
-Once merged, you can get a pre-release package of the toolkit by adding this ([Nuget repo](https://dotnet.myget.org/F/uwpcommunitytoolkit/api/v3/index.json) | [Gallery](https://dotnet.myget.org/gallery/uwpcommunitytoolkit)) to your Visual Studio.
+Once merged, you can get a pre-release package of the toolkit by adding this ([Azure DevOps feed](https://pkgs.dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging/WindowsCommunityToolkit-MainLatest/nuget/v3/index.json) | [Gallery](https://dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging?_a=feed&feed=WindowsCommunityToolkit-MainLatest)) to your Visual Studio.
