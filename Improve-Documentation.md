@@ -4,7 +4,7 @@ Currently, all the Windows Community Toolkit Docs are being hosted on [WindowsCo
 
 ### How does the Doc process work? 
 
-When opening a Pull Request, start by forking this repository. Then, based on the type of change you're making you'll need to create a new branch from either the `master` or `dev` branches:
+When opening a Pull Request, start by forking [Windows Community Toolkit Docs](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs) repository. Then, based on the type of change you're making you'll need to create a new branch from either the `master` or `dev` branches:
 
 If you have a typo or existing document improvement to an already shipped feature, please base your change off of the [Master branch](https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs/tree/master). This will allow us to get the change to the published documentation between releases.
 
