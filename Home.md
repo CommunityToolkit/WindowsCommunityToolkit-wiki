@@ -17,3 +17,60 @@ Use the [`#WindowsCommunityToolkit`](https://twitter.com/search?q=%23WindowsComm
 - Windows Blogs - Release Overviews - [Search for Windows Community Toolkit](https://blogs.windows.com/?s=Windows+Community+Toolkit)
 - Dev Blogs - [Other Articles](https://devblogs.microsoft.com/pax-windows/)
 - We may sometimes add to the [.NET Foundation Newsletter](https://github.com/dotnet-foundation/website/blob/master/input/blog/posts/_current-newsletter-draft.md) too!
+
+## Projects that are currently using Windows Community Toolkit...
+
+<h1 align="center">Fiona</h1>
+
+<table>
+  <tr>
+    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona1.png height=350></td>
+    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona2.png height=350></td>
+  </tr>
+  <tr>
+    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona4.png height=350></td>
+    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona3.png height=350></td>
+  </tr>
+</table>
+ 
+<p align="left">Fiona was started using the WCT Template, and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.</p>
+ 
+ > You can find out more information about **Fiona** [here](https://github.com/PaoloM/Fiona)
+
+<h1 align="center">Shrestha Files</h1>
+
+![Shrestha](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Shrestha.gif)
+
+***Shrestha Files is a modern and minimalist dual pane file manager with tabs and color themes support.***
+
+- ***It uses GridSplitter in dual pane mode to resize two panes.***   
+- ***It uses Guard to validate arguments***
+- ***It uses MVVM toolkit and is gradually moving to MVVM-ify more! All settings pages and navigation bar edit page mostly follow MVVM pattern. Still updating other components gradually.***     
+- ***It uses EnumValuesExtensions since the last version to load enum values in SplitButton options for view type and sort type.*** 
+
+> Here's a quick overview of the app: [Shretha Files](https://youtu.be/-LBXu0lzh_Y "https://youtu.be/-LBXu0lzh_Y")
+
+<h1 align="center">Yugen Mosaic</h1>
+
+![YugenMosaic](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/YugenMosaic.png) 
+![YugenMosaic2](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/YugenMosaic2.png)
+
+***Yugen Mosaic is a free app that creates digital art pictures based on your own images. With it, you can use an unlimited amount of images, to create a photo mosaic which is an image composed of many tiled photos. Yugen is an awareness of the universe that triggers emotional responses too deep and powerful for words, and that is just what your art will do with a little help from Yugen Mosaic!***
+
+Find the App in [Microsoft Store](https://www.microsoft.com/en-us/p/yugen-mosaic/9pf0s24cx0d4). More information regarding this [project](https://github.com/Panda-Sharp/Yugen.Mosaic)
+
+<h1 align="center">OneLocker and Legere</h1>
+
+![Onelocker-legere](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Onelocker-Legere.png)
+
+***OneLocker: is a UWP password manager with the goal of being as feature complete as possible. It supports tons of UWP-specific features (eg. Windows Hello, Timeline, live tiles, notifications, background sync, Windows Ink, Surface Dial, etc.) and the database is heavily customizable. I've used the Toolkit here for several UWP helpers (eg. SystemInfo) and extensions.***
+
+***Legere: is a fully customizable UWP client for Reddit supporting multiple users, live tiles, myTube! integration, and more. I'm using several Toolkit controls like the WrapPanel to display post tags, as well as lots of helpers. I'm currently in the process of migrating the codebase to the Toolkit 7.0.***
+
+<h1 align="center">Console/IDE</h1>
+
+![Console/IDE](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Console:IDE.png)
+
+***Console/IDE: is a fully featured console and IDE/debugger for an obscure programming language. I'm heavily using the HighPerformance, Diagnostics and MVVM Toolkit packages from the Toolkit (in fact I initially wrote them while working on this app!), and I'm also using the Uwp.UI.Media package for some custom Composition brushes I use in the shell. And also the Uwp.UI.Animation package in a few places. This is probably the app where I use more Toolkit packages together.***
+
+
