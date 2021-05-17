@@ -9,7 +9,7 @@
 * [[Principles]] ☑️
 * [[Roadmap]] 🗺
 * [[.NET Foundation]]
-* [[Why Microsoft supports this project?]] 🤝
+* [[Why Microsoft supports this project]] 🤝
 * [[License]] 📄
 
 ### Usage
