@@ -5,6 +5,9 @@ Windows Community Toolkit is an open-source Microsoft program with the partnersh
 
 If this is your first time contributing to the Windows Community Toolkit, you are required to read and sign the [Microsoft CLA](https://cla.opensource.microsoft.com/). You can sign the CLA by submitting a Pull Request in the repository, and the bot will automatically trigger CLA instructions for you to read and sign. By signing the CLA, you can confirm that the community is free to use your contribution. Finally, once the bot approves your authorization, it will automatically proceed to submit your changes to the WCT repository.
 
+At times we will leverage other open source code to improve the Toolkit. We strive to get support from those authors when we decide to do so. Their work is attributed in our [Third-Party Notice File here](https://github.com/windows-toolkit/WindowsCommunityToolkit/blob/main/ThirdPartyNotices.txt). If you have any questions or concerns, please let us know in an Issue or a Discussion.
+
+You can find our standard licensing (MIT) of the Toolkit itself below; provided here as a reference, but please be sure to refer to each repositories individual licenses, as some may differ.
 
 # Windows Community Toolkit
 
