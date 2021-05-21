@@ -27,8 +27,7 @@
 * [[Help Wanted]] 🙋
 * [[Bug Fixes]] 🐛
 * [[Feature Requests]] 📫
-* [[Create Pull Request]] 🔥
-* [[Submit Pull Request]] 🚀
+* [[Create and Submit PullRequest]] 🚀
 * [[Add Documentation]] 📝
 * [[Improve Documentation]] ♻️
 * [[Review PR]] 📖
