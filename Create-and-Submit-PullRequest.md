@@ -1,3 +1,5 @@
+<h2>How to Create PullRequest?</h2>
+
 If this is your first time contributing to Windows Community Toolkit and never created a PR before, do not worry because you are not in this alone. By following [Github Help](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) guidelines you will be able to create your first Pull Request.
 
 Anyone with write access can create a Pull Request by forking the Windows Community Toolkit repository. Here is how you can [Create a Pull Request from fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
@@ -10,7 +12,7 @@ Once the PR is created and submitted, we will be able to see the associated PR i
 
 If you are not certain about the Pull Request submitted; our team along with the community members are here to review the work and highlight any changes the PR might require to fulfill any required obligation.
 
-**Submit PullRequest**
+<h2>How to Submit PullRequest?</h2>
 
 For every contribution, you must:
 * Test your code with the supported SDKs
