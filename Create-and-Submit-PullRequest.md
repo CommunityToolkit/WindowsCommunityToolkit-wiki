@@ -12,7 +12,7 @@ Once the PR is created and submitted, we will be able to see the associated PR i
 
 If you are not certain about the Pull Request submitted; our team along with the community members are here to review the work and highlight any changes the PR might require to fulfill any required obligation.
 
-<h2>How to Submit PullRequest?</h2>
+## How to Submit PullRequest?
 
 For every contribution, you must:
 * Test your code with the supported SDKs
