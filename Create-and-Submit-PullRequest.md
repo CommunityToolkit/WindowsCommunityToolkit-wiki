@@ -1,4 +1,4 @@
-<h2>How to Create PullRequest?</h2>
+## How to Create PullRequest?
 
 If this is your first time contributing to Windows Community Toolkit and never created a PR before, do not worry because you are not in this alone. By following [Github Help](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) guidelines you will be able to create your first Pull Request.
 
