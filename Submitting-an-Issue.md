@@ -10,4 +10,4 @@
 
 * **Now What?**
 
-\> [[Questions]] | [[Bug Fixes]] | [[Feature Requests]]
+\> [[Questions]] | [[Bug Fixes]] | [[Feature Requests]] | [[Discussions]]
