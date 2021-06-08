@@ -22,7 +22,7 @@ These were the community members with impeccable performance and consistency whi
 [![Harini Kannan](https://github.com/harinikmsft.png?size=200)](https://github.com/harinikmsft)
 [![Vijay Nirmal](https://github.com/Vijay-Nirmal.png?size=200)](https://github.com/Vijay-Nirmal)
 
-## Members Without Profile Picture
+### Hall of Fame Members Without Profile Picture
 - [Ryland](https://github.com/ryalanms)
 - [bixybixy2](https://github.com/bixybixy2)
 - [George Gao](https://github.com/gegao18)
