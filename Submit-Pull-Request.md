@@ -1,7 +1,7 @@
 For every contribution, you must:
 * Test your code with the supported SDKs
 * Follow the quality guidance, general rules, and naming convention
-* Target master branch (or an appropriate release branch if appropriate for a bug fix)
+* Target Main branch (or an appropriate release branch if appropriate for a bug fix)
 * Follow the Windows Community Toolkit PR Template 
 * If adding a new feature
   * Before starting coding, you should open an issue and start discussing with the community to see if your idea/feature is interesting enough.

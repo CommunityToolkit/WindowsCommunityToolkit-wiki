@@ -14,14 +14,14 @@ Steps to review PR
 * Open the Visual Studio 
 * Click on “Open a project or solution” 
 * Locate the cloned repository folder in the local machine and select .sln file to open the solution.
-* You will see the PR checkout branch in the bottom right corner of the Visual Studio page. (By default it should have been on the master branch but since the PR checkout command has been performed; therefore, it’s on the branch that is ready to be tested).
+* You will see the PR checkout branch in the bottom right corner of the Visual Studio page. (By default it should have been on the main branch but since the PR checkout command has been performed; therefore, it’s on the branch that is ready to be tested).
 * Now run the Microsoft.Toolkit.Uwp.SampleApp and Open [Windows Community Toolkit Sample App](https://www.microsoft.com/en-us/p/windows-community-toolkit-sample-app/9nblggh4tlcq?rtc=1) as well. 
 * Review and test the changes side by side.
 * Once approved signoff by leaving feedback and results. 
 
 :bulb:	List of [Hub Commands](https://hub.github.com/hub.1.html#commands) that can be useful to manage Pull Request. 
 
-Overall, it is essential to make sure the PR is on the feature branch of the forked repository it does not contradict with any other changes. If it has multiple changes then make certain it is clearly stated in the [PR Template](https://github.com/windows-toolkit/WindowsCommunityToolkit/blob/master/.github/PULL_REQUEST_TEMPLATE.md) with the detailed information and all the requirements of the PR checklist have been fulfilled.
+Overall, it is essential to make sure the PR is on the feature branch of the forked repository it does not contradict with any other changes. If it has multiple changes then make certain it is clearly stated in the [PR Template](https://github.com/windows-toolkit/WindowsCommunityToolkit/blob/main/.github/PULL_REQUEST_TEMPLATE.md) with the detailed information and all the requirements of the PR checklist have been fulfilled.
 
 It is also significant to watch if the PR contains any breaking changes or not. If the PR contains a breaking change, check for the detailed description of the impact and migration path for the existing application.
 
