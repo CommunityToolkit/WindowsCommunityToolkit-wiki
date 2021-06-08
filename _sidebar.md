@@ -22,6 +22,7 @@
 
 ### Contribution
 
+* [[Discussions]] 👥
 * [[Submitting an Issue]] ✔️
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
@@ -31,7 +32,6 @@
 * [[Add Documentation]] 📝
 * [[Improve Documentation]] ♻️
 * [[Review PR]] 📖
-* [[Discussions]] 👥
 * [[Building XAML Controls]] 🎛
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
