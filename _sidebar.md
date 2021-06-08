@@ -4,12 +4,12 @@
 
 * [[Home]] 🏠 
 * [[Welcome]] 🙏
-* [[Windows Community Toolkit]]
+* [[Windows Community Toolkit]] 🧰
 * [[Features]] 📬
 * [[Principles]] ☑️
 * [[Roadmap]] 🗺
 * [[.NET Foundation]]
-* [[Why Microsoft supports this project]] 🤝
+* [[Why Microsoft supports this project]]
 * [[License]] 📄
 
 ### Usage
@@ -22,13 +22,13 @@
 
 ### Contribution
 
+* [[Discussions]] 👥
 * [[Submitting an Issue]] ✔️
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
 * [[Bug Fixes]] 🐛
 * [[Feature Requests]] 📫
-* [[Create Pull Request]] 🔥
-* [[Submit Pull Request]] 🚀
+* [[Create and Submit PullRequest]] 🚀
 * [[Add Documentation]] 📝
 * [[Improve Documentation]] ♻️
 * [[Review PR]] 📖
