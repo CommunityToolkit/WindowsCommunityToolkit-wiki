@@ -22,17 +22,16 @@
 
 ### Contribution
 
+* [[Discussions]] 👥
 * [[Submitting an Issue]] ✔️
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
 * [[Bug Fixes]] 🐛
 * [[Feature Requests]] 📫
-* [[Create Pull Request]] 🔥
-* [[Submit Pull Request]] 🚀
+* [[Create and Submit PullRequest]] 🚀
 * [[Add Documentation]] 📝
 * [[Improve Documentation]] ♻️
 * [[Review PR]] 📖
-* [[Discussions]] 👥
 * [[Building XAML Controls]] 🎛
 * [[Coding Style and Conventions]] ⚖
 * [[Accessibility Guideline]] ♿
