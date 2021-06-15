@@ -2,7 +2,7 @@ NuGet is a standard package manager for .NET applications which is built into Vi
 
 Once you do a search, you should see a list similar to the one below (versions may be different, but names should be the same).
 
-| **Old NuGet Package Name**      | **New NuGet Package Name** | **Description** |
+| **UWP NuGet Package Name**      | **WinUI NuGet Package Name** | **Description** |
 | :-------------: | :----------: | :----------: |
 |  Microsoft.Toolkit | | .NET Standard NuGet package containing common code   |
 | Microsoft.Toolkit.HighPerformance   | CommunityToolkit.HighPerformance | .NET Standard and .NET Core NuGet package with performance-oriented helpers, extensions, etc |
