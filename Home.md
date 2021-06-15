@@ -20,26 +20,15 @@ Use the [`#WindowsCommunityToolkit`](https://twitter.com/search?q=%23WindowsComm
 
 ## Projects that are currently using Windows Community Toolkit...
 
-### Fiona
+### [Fiona](https://www.mysqueezebox.com/download) by [PaoloM](https://github.com/PaoloM)
 
-<table>
-  <tr>
-    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona1.png height=350></td>
-    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona2.png height=350></td>
-  </tr>
-  <tr>
-    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona4.png height=350></td>
-    <td><img src=https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona3.png height=350></td>
-  </tr>
-</table>
+![Fiona1](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona1.png)
 
->Creator: [PaoloM](https://github.com/PaoloM)
-
-<p align="left">Fiona was started using the WCT Template, and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.</p>
+Fiona was started using the WCT Template, and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.
  
- > You can find out more information about **Fiona** [here](https://github.com/PaoloM/Fiona)
+[Fiona Github](https://github.com/PaoloM/Fiona)
 
-<h1 align="center">Shrestha Files Pro</h1>
+### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by 
 
 ![Shrestha](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Shrestha.gif)
 
@@ -52,22 +41,17 @@ Shrestha Files is a modern and minimalist dual pane file manager with tabs and c
 
 > Here's a quick overview of: [Shretha Files](https://youtu.be/-LBXu0lzh_Y "https://youtu.be/-LBXu0lzh_Y"). Find the App [here](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm)
 
-<h1 align="center">Yugen Mosaic</h1>
+### [Yugen Mosaic](https://www.microsoft.com/en-us/p/yugen-mosaic/9pf0s24cx0d4) by [PandaSharp](https://github.com/Panda-Sharp)
 
-![YugenMosaic](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/YugenMosaic.png) 
 ![YugenMosaic2](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/YugenMosaic2.png)
-
->Creator: [PandaSharp](https://github.com/Panda-Sharp)
 
 Yugen Mosaic is a free app that creates digital art pictures based on your own images. With it, you can use an unlimited amount of images, to create a photo mosaic which is an image composed of many tiled photos. Yugen is an awareness of the universe that triggers emotional responses too deep and powerful for words, and that is just what your art will do with a little help from Yugen Mosaic!
 
-Find the App in [Microsoft Store](https://www.microsoft.com/en-us/p/yugen-mosaic/9pf0s24cx0d4). More information regarding this [project](https://github.com/Panda-Sharp/Yugen.Mosaic)
+[Yugen Mosaic Github](https://github.com/Panda-Sharp/Yugen.Mosaic)
 
-<h1 align="center">OneLocker and Legere</h1>
+### OneLocker and Legere by [Sergio Pedri](https://github.com/Sergio0694)
 
 ![Onelocker-legere](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Onelocker-Legere.png)
-
->Creator: [Sergio Pedri](https://github.com/Sergio0694)
 
 **OneLocker:** is a UWP password manager with the goal of being as feature complete as possible. It supports tons of UWP-specific features (eg. Windows Hello, Timeline, live tiles, notifications, background sync, Windows Ink, Surface Dial, etc.) and the database is heavily customizable. The creator have used the Toolkit here for several UWP helpers (eg. SystemInfo) and extensions.
 
@@ -77,11 +61,9 @@ Find the App in [Microsoft Store](https://www.microsoft.com/en-us/p/yugen-mosaic
 
 > ***I'm using several Toolkit controls like the WrapPanel to display post tags, as well as lots of helpers. I'm currently in the process of migrating the codebase to the Toolkit 7.0***
 
-<h1 align="center">Console/IDE</h1>
+### Console/IDE by [Sergio Pedri](https://github.com/Sergio0694)
 
 ![Console/IDE](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Console:IDE.png)
-
->Creator: [Sergio Pedri](https://github.com/Sergio0694)
 
 Console/IDE: is a fully featured console and IDE/debugger for an obscure programming language.
 
