@@ -4,7 +4,7 @@ Once you do a search, you should see a list similar to the one below (versions m
 
 | **UWP NuGet Package Name**      | **WinUI NuGet Package Name** | **Description** |
 | :-------------: | :----------: | :----------: |
-|  Microsoft.Toolkit | | .NET Standard NuGet package containing common code   |
+|  Microsoft.Toolkit | CommunityToolkit.Common | .NET Standard NuGet package containing common code   |
 | Microsoft.Toolkit.HighPerformance   | CommunityToolkit.HighPerformance | .NET Standard and .NET Core NuGet package with performance-oriented helpers, extensions, etc |
 | Microsoft.Toolkit.MVVM | CommunityToolkit.MVVM | (In Preview) .NET Standard MVVM Library, [read more here](https://aka.ms/MVVMToolkit) |
 |  Microsoft.Toolkit.Parsers | 	| .NET Standard NuGet package containing cross-platform parsers, such as Markdown   |
