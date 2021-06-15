@@ -20,7 +20,7 @@ Use the [`#WindowsCommunityToolkit`](https://twitter.com/search?q=%23WindowsComm
 
 ## Projects that are currently using Windows Community Toolkit...
 
-<h1 align="center">Fiona</h1>
+### Fiona
 
 <table>
   <tr>
