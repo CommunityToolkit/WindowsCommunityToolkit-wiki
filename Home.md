@@ -20,6 +20,8 @@ Use the [`#WindowsCommunityToolkit`](https://twitter.com/search?q=%23WindowsComm
 
 ## Projects using the Windows Community Toolkit
 
+Below are a few projects highlighting usage of the Windows Community Toolkit from other creators in our Community. We hope they inspire you to see the possibilities of what you're able to create with the tools provided in our library.
+
 ### [Fiona](https://www.mysqueezebox.com/download) by [PaoloM](https://github.com/PaoloM)
 
 ![Fiona1](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona1.png)
