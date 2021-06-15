@@ -18,7 +18,7 @@ Use the [`#WindowsCommunityToolkit`](https://twitter.com/search?q=%23WindowsComm
 - Dev Blogs - [Other Articles](https://devblogs.microsoft.com/pax-windows/)
 - We may sometimes add to the [.NET Foundation Newsletter](https://github.com/dotnet-foundation/website/blob/master/input/blog/posts/_current-newsletter-draft.md) too!
 
-## Projects that are currently using Windows Community Toolkit...
+## Projects using the Windows Community Toolkit
 
 ### [Fiona](https://www.mysqueezebox.com/download) by [PaoloM](https://github.com/PaoloM)
 
