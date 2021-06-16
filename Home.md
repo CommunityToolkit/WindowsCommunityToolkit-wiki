@@ -24,7 +24,7 @@ Below are a few projects highlighting usage of the Windows Community Toolkit fro
 
 ### [Fiona](https://www.mysqueezebox.com/download) by [PaoloM](https://github.com/PaoloM)
 
-![Fiona1](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona1.png)
+![Fiona1](/images/App-Gallery/Fiona1.png)
 
 Fiona was started using the WCT Template ([from Windows Template Studio](https://aka.ms/wts)), and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.
  
@@ -32,7 +32,7 @@ Fiona was started using the WCT Template ([from Windows Template Studio](https:/
 
 ### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by 
 
-![Shrestha](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Shrestha.gif)
+![Shrestha](/images/App-Gallery/ShresthaFiles.jpeg)
 
 Shrestha Files is a modern and minimalist dual pane file manager with tabs and color themes support.
 
@@ -45,7 +45,7 @@ Shrestha Files is a modern and minimalist dual pane file manager with tabs and c
 
 ### [Yugen Mosaic](https://www.microsoft.com/en-us/p/yugen-mosaic/9pf0s24cx0d4) by [PandaSharp](https://github.com/Panda-Sharp)
 
-![YugenMosaic2](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/YugenMosaic2.png)
+![YugenMosaic2](/images/App-Gallery/YugenMosaic2.png)
 
 Yugen Mosaic is a free app that creates digital art pictures based on your own images. With it, you can use an unlimited amount of images, to create a photo mosaic which is an image composed of many tiled photos. Yugen is an awareness of the universe that triggers emotional responses too deep and powerful for words, and that is just what your art will do with a little help from Yugen Mosaic!
 
@@ -53,7 +53,7 @@ Yugen Mosaic is a free app that creates digital art pictures based on your own i
 
 ### OneLocker and Legere by [Sergio Pedri](https://github.com/Sergio0694)
 
-![Onelocker-legere](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Onelocker-Legere.png)
+![Onelocker-legere](/images/App-Gallery/Onelocker-Legere.png)
 
 **OneLocker:** is a UWP password manager with the goal of being as feature complete as possible. It supports tons of UWP-specific features (eg. Windows Hello, Timeline, live tiles, notifications, background sync, Windows Ink, Surface Dial, etc.) and the database is heavily customizable. The creator have used the Toolkit here for several UWP helpers (eg. SystemInfo) and extensions.
 
@@ -65,7 +65,7 @@ Yugen Mosaic is a free app that creates digital art pictures based on your own i
 
 ### Console/IDE by [Sergio Pedri](https://github.com/Sergio0694)
 
-![Console/IDE](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Console:IDE.png)
+![Console/IDE](/images/App-Gallery/Console:IDE.png)
 
 Console/IDE: is a fully featured console and IDE/debugger for an obscure programming language.
 
