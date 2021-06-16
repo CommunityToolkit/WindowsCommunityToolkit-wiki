@@ -2,7 +2,7 @@ NuGet is a standard package manager for .NET applications which is built into Vi
 
 Once you do a search, you should see a list similar to the one below (versions may be different, but names should be the same).
 
-![](https://raw.githubusercontent.com/windows-toolkit/WindowsCommunityToolkit/master/githubresources/images/NugetPackages.png)
+![](https://raw.githubusercontent.com/windows-toolkit/WindowsCommunityToolkit/main/githubresources/images/NugetPackages.png)
 
 
 

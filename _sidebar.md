@@ -4,11 +4,13 @@
 
 * [[Home]] 🏠 
 * [[Welcome]] 🙏
-* [[Windows Community Toolkit]]
+* [[Windows Community Toolkit]] 🧰
 * [[Features]] 📬
 * [[Principles]] ☑️
 * [[Roadmap]] 🗺
 * [[.NET Foundation]]
+* [[Why Microsoft supports this project]]
+* [[License]] 📄
 
 ### Usage
 
@@ -16,18 +18,17 @@
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
-* Have [[Questions]] ❓
+* [[Questions]] ❓
 
 ### Contribution
 
-* Things to consider before [[Submitting an Issue]] ✔️
-* Have [[Questions]] ❓
+* [[Discussions]] 👥
+* [[Submitting an Issue]] ✔️
 * [[Good First Issue]] 👌
 * [[Help Wanted]] 🙋
 * [[Bug Fixes]] 🐛
 * [[Feature Requests]] 📫
-* [[Create Pull Request]] 🔥
-* [[Submit Pull Request]] 🚀
+* [[Create and Submit PullRequest]] 🚀
 * [[Add Documentation]] 📝
 * [[Improve Documentation]] ♻️
 * [[Review PR]] 📖
@@ -38,8 +39,13 @@
 
 ### Development/Testing
 
-* [[Quick Start]]
+* [[Quick Start]] ⚡
 * [[Required Dependencies]] 📌
 * [[Sample Development]] 📱
 * [[Fabric Bot Services]] 🤖
 
+### Project Structure
+
+* [[How the Project is Organized]] 🗄️
+* [[Join the Toolkit Organization]] 🚪
+* [[Hall of Fame]] 🏆

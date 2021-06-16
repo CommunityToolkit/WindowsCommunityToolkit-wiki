@@ -1,4 +1,4 @@
-# Welcome to the Wiki page of Windows Community Toolkit 💼
+# Welcome to the Wiki page of Windows Community Toolkit :toolbox:
 
 We are glad you are here and one step closer to learn more about this amazing platform and the ways you can contribute :raised_hands:
 
