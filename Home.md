@@ -26,7 +26,7 @@ Below are a few projects highlighting usage of the Windows Community Toolkit fro
 
 ![Fiona1](https://github.com/Kyaa-dost/WindowsCommunityToolkit-wiki/blob/App-Gallery/images/Fiona1.png)
 
-Fiona was started using the WCT Template, and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.
+Fiona was started using the WCT Template ([from Windows Template Studio](https://aka.ms/wts)), and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.
  
 [Fiona Github](https://github.com/PaoloM/Fiona)
 
