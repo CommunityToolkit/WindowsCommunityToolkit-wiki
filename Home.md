@@ -4,7 +4,7 @@ We are glad you are here and one step closer to learn more about this amazing pl
 
 The section on the right will help you navigate and answer all the questions you may have regarding the toolkit. You can submit an issue to suggest any changes, introduce features, file bug reports, or leave a Windows Community Toolkit related question. You can also submit a pull request and contribute many other ways listed in the Contribution Section to the right.
 
-Every single contribution of yours will improve and strengthen the performance of the toolkit. Let's jump into the ride 🎢 
+Every single contribution of yours will improve and strengthen the performance of the toolkit. Let's jump into the ride 🎢
 
 
 ### Feedback and Requests
@@ -27,10 +27,10 @@ Below are a few projects highlighting usage of the Windows Community Toolkit fro
 ![Fiona1](/images/App-Gallery/Fiona1.png)
 
 Fiona was started using the WCT Template ([from Windows Template Studio](https://aka.ms/wts)), and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.
- 
+
 [Fiona Github](https://github.com/PaoloM/Fiona)
 
-### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by 
+### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by
 
 ![Shrestha](/images/App-Gallery/ShresthaFiles.jpeg)
 
@@ -41,7 +41,7 @@ Shrestha Files is a modern and minimalist dual pane file manager with tabs and c
 - It uses MVVM toolkit and is gradually moving to MVVM-ify more! All settings pages and navigation bar edit page mostly follow MVVM pattern.    
 - It uses EnumValuesExtensions since the last version to load enum values in SplitButton options for view type and sort type.
 
-> Here's a quick overview of: [Shretha Files](https://youtu.be/-LBXu0lzh_Y "https://youtu.be/-LBXu0lzh_Y"). Find the App [here](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm)
+ Here's a quick overview of: [Shretha Files](https://youtu.be/-LBXu0lzh_Y "https://youtu.be/-LBXu0lzh_Y"). More information about the app [here](https://jptgamesandapps.github.io/ShresthaFiles/)
 
 ### [Yugen Mosaic](https://www.microsoft.com/en-us/p/yugen-mosaic/9pf0s24cx0d4) by [PandaSharp](https://github.com/Panda-Sharp)
 
@@ -51,23 +51,12 @@ Yugen Mosaic is a free app that creates digital art pictures based on your own i
 
 [Yugen Mosaic Github](https://github.com/Panda-Sharp/Yugen.Mosaic)
 
-### OneLocker and Legere by [Sergio Pedri](https://github.com/Sergio0694)
+### [Legere](https://www.microsoft.com/en-us/p/legere-for-reddit/9phjrvcskvjz?rtc=1&activetab=pivot:overviewtab) by [Sergio Pedri](https://github.com/Sergio0694)
 
-![Onelocker-legere](/images/App-Gallery/Onelocker-Legere.png)
+![Legere](/images/App-Gallery/Legere.png)
 
-**OneLocker:** is a UWP password manager with the goal of being as feature complete as possible. It supports tons of UWP-specific features (eg. Windows Hello, Timeline, live tiles, notifications, background sync, Windows Ink, Surface Dial, etc.) and the database is heavily customizable. The creator have used the Toolkit here for several UWP helpers (eg. SystemInfo) and extensions.
+Legere is a fully customizable UWP client for Reddit supporting multiple users, live tiles, myTube! integration, and more.
 
-**Legere:** is a fully customizable UWP client for Reddit supporting multiple users, live tiles, myTube! integration, and more. 
-
-**According to the Creator:**
+> Quote from Sergio
 
 > ***I'm using several Toolkit controls like the WrapPanel to display post tags, as well as lots of helpers. I'm currently in the process of migrating the codebase to the Toolkit 7.0***
-
-### Console/IDE by [Sergio Pedri](https://github.com/Sergio0694)
-
-![Console/IDE](/images/App-Gallery/Console:IDE.png)
-
-Console/IDE: is a fully featured console and IDE/debugger for an obscure programming language.
-
-**In the words of Sergio**: 
-> ***I'm heavily using the HighPerformance, Diagnostics and MVVM Toolkit packages from the Toolkit (in fact I initially wrote them while working on this app!), and I'm also using the Uwp.UI.Media package for some custom Composition brushes I use in the shell. And also the Uwp.UI.Animation package in a few places. This is probably the app where I use more Toolkit packages together.***
