@@ -29,8 +29,7 @@
 * [[Bug Fixes]] 🐛
 * [[Feature Requests]] 📫
 * [[Create and Submit PullRequest]] 🚀
-* [[Add Documentation]] 📝
-* [[Improve Documentation]] ♻️
+* [[Documentation]] 📝
 * [[Review PR]] 📖
 * [[Building XAML Controls]] 🎛
 * [[Coding Style and Conventions]] ⚖
