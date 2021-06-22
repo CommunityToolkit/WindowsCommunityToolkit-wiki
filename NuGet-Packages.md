@@ -2,13 +2,13 @@ NuGet is a standard package manager for .NET applications which is built into Vi
 
 Once you do a search, you should see a list similar to the one below (versions may be different, but names should be the same).
 
-Note: Windows Community Toolkit is now compatible with WinUI3 which is why WCT has trasitioned from UWP NuGet package naming to the WinUI NuGet Packages mentioned below. To learn more about the transition and project update please checkout [Windows Community Toookit for Project Reunion 0.5](https://aka.ms/wct-winui3)
+**Note**: The Windows Community Toolkit is now compatible with WinUI3 which is why WCT has trasitioned from UWP NuGet package naming to the WinUI NuGet Packages mentioned below. To learn more about the transition and project update please checkout [Windows Community Toookit for Project Reunion](https://aka.ms/wct-winui3)
 
 | **UWP NuGet Package Name**      | **WinUI NuGet Package Name** | **Description** |
 | :-------------: | :----------: | :----------: |
 |  Microsoft.Toolkit | CommunityToolkit.Common | .NET Standard NuGet package containing common code   |
 | Microsoft.Toolkit.HighPerformance   | CommunityToolkit.HighPerformance | .NET Standard and .NET Core NuGet package with performance-oriented helpers, extensions, etc |
-| Microsoft.Toolkit.MVVM | CommunityToolkit.MVVM | (In Preview) .NET Standard MVVM Library, [read more here](https://aka.ms/MVVMToolkit) |
+| Microsoft.Toolkit.MVVM | CommunityToolkit.MVVM | .NET Standard MVVM Library, [read more here](https://aka.ms/MVVMToolkit) |
 |  Microsoft.Toolkit.Uwp | CommunityToolkit.WinUI | Main NuGet package includes code only helpers such as Color conversions, Storage file handling, a Stream helper class, etc.   |
 |  Microsoft.Toolkit.Uwp.Notifications | CommunityToolkit.WinUI.Notifications |	Notifications Package - Generate tile, toast, and badge notifications for Windows 10 via code. Includes IntelliSense support to avoid having to use the XML syntax   |
 |  Microsoft.Toolkit.Uwp.UI | CommunityToolkit.WinUI.UI | UI Packages - XAML converters, Visual tree extensions, State Triggers, and other extensions and helpers for your XAML UI   |
