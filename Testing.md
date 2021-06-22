@@ -50,6 +50,8 @@ Use `[ExpectedException]` and `[DataRow]` attributes to help you easily test exc
 
 When fixing a bug, it can also be handy to write a unit test first which shows the broken scenario, and then validate the bug is fixed by writing the solution against the same test (which should now pass).
 
+Find more [in the general .NET unit testing best practices doc here](https://docs.microsoft.com/dotnet/core/testing/unit-testing-best-practices).
+
 
 ## UI Tests (Integration Testing)
 
