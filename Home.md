@@ -24,7 +24,7 @@ Below are a few projects highlighting usage of the Windows Community Toolkit fro
 
 ### [Fiona](https://www.mysqueezebox.com/download) by [PaoloM](https://github.com/PaoloM)
 
-![Fiona1](/images/App-Gallery/Fiona1.png)
+![Fiona1](images/App-Gallery/Fiona1.png)
 
 Fiona was started using the WCT Template ([from Windows Template Studio](https://aka.ms/wts)), and it's using a bunch of the helpers and services provided with that. Plus, as mentioned, the toolkit MVVM.
 
@@ -32,7 +32,7 @@ Fiona was started using the WCT Template ([from Windows Template Studio](https:/
 
 ### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by
 
-![Shrestha](/images/App-Gallery/ShresthaFiles.jpeg)
+![Shrestha](images/App-Gallery/ShresthaFiles.jpeg)
 
 Shrestha Files is a modern and minimalist dual pane file manager with tabs and color themes support.
 
@@ -45,7 +45,7 @@ Shrestha Files is a modern and minimalist dual pane file manager with tabs and c
 
 ### [Yugen Mosaic](https://www.microsoft.com/en-us/p/yugen-mosaic/9pf0s24cx0d4) by [PandaSharp](https://github.com/Panda-Sharp)
 
-![YugenMosaic2](/images/App-Gallery/YugenMosaic2.png)
+![YugenMosaic2](images/App-Gallery/YugenMosaic2.png)
 
 Yugen Mosaic is a free app that creates digital art pictures based on your own images. With it, you can use an unlimited amount of images, to create a photo mosaic which is an image composed of many tiled photos. Yugen is an awareness of the universe that triggers emotional responses too deep and powerful for words, and that is just what your art will do with a little help from Yugen Mosaic!
 
@@ -53,7 +53,7 @@ Yugen Mosaic is a free app that creates digital art pictures based on your own i
 
 ### [Legere](https://www.microsoft.com/en-us/p/legere-for-reddit/9phjrvcskvjz?rtc=1&activetab=pivot:overviewtab) by [Sergio Pedri](https://github.com/Sergio0694)
 
-![Legere](/images/App-Gallery/Legere.png)
+![Legere](images/App-Gallery/Legere.png)
 
 Legere is a fully customizable UWP client for Reddit supporting multiple users, live tiles, myTube! integration, and more.
 
