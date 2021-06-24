@@ -31,16 +31,17 @@
 * [[Create and Submit PullRequest]] 🚀
 * [[Documentation]] 📝
 * [[Review PR]] 📖
-* [[Building XAML Controls]] 🎛
-* [[Coding Style and Conventions]] ⚖
-* [[Accessibility Guideline]] ♿
 * [[Avoid Roadblocks]] 🚧
 
 ### Development/Testing
 
 * [[Quick Start]] ⚡
 * [[Required Dependencies]] 📌
+* [[Coding Style and Conventions]] ⚖
+* [[Testing]] 🧪
 * [[Sample Development]] 📱
+* [[Accessibility Guideline]] ♿
+* [[Building XAML Controls]] 🎛
 * [[Fabric Bot Services]] 🤖
 
 ### Project Structure
