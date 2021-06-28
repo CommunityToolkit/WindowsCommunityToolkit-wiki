@@ -24,7 +24,7 @@ For every contribution, you must:
 * Follow the Windows Community Toolkit PR Template 
 * If adding a new feature
   * Before starting coding, you should open an issue and start discussing with the community to see if your idea/feature is interesting enough.
-  * Add Documentation for the feature, see [[Improving Documentation]]
+  * Add Documentation for the feature, see [[Documentation]]
 * Add or update a sample for the Sample app
   * If creating a new sample, create a new icon by following the Thumbnail Style Guide and templates
 * Add or update unit tests and integration tests, see [[Testing]]
