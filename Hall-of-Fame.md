@@ -21,6 +21,7 @@ These were the community members with impeccable performance and consistency whi
 [![Chris Barker](https://github.com/cbarkerms.png?size=200)](https://github.com/cbarkerms)
 [![Harini Kannan](https://github.com/harinikmsft.png?size=200)](https://github.com/harinikmsft)
 [![Vijay Nirmal](https://github.com/Vijay-Nirmal.png?size=200)](https://github.com/Vijay-Nirmal)
+[![Kyaa-Dost](https://github.com/Kyaa-Dost.png?size=200)](https://github.com/Kyaa-Dost)
 
 ### Hall of Fame Members Without Profile Picture
 - [Ryland](https://github.com/ryalanms)
