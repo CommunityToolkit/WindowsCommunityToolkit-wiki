@@ -30,16 +30,17 @@ Fiona was started using the WCT Template ([from Windows Template Studio](https:/
 
 [Fiona Github](https://github.com/PaoloM/Fiona)
 
-### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by
+### [Shrestha Files Pro](https://www.microsoft.com/p/shrestha-files-pro-a-modern-dual-panel-file-manager-with-tabs-and-colors/9npnffsv2hqm) by [JPT Games and Apps](https://github.com/JPTGamesAndApps)
 
 ![Shrestha](images/App-Gallery/ShresthaFiles.jpeg)
 
 Shrestha Files is a modern and minimalist dual pane file manager with tabs and color themes support.
 
-- It uses GridSplitter in dual pane mode to resize two panes.
+- It uses the GridSplitter in dual pane mode to resize two panes. It also uses the GridSplitter to resize the columns in the Detailed List view mode.
 - It uses Guard to validate arguments.
 - It uses MVVM toolkit and is gradually moving to MVVM-ify more! All settings pages and navigation bar edit page mostly follow MVVM pattern.    
 - It uses EnumValuesExtensions since the last version to load enum values in SplitButton options for view type and sort type.
+- It shows device and OS information using SystemInformation helper class.
 
  Here's a quick overview of: [Shretha Files](https://youtu.be/-LBXu0lzh_Y "https://youtu.be/-LBXu0lzh_Y"). More information about the app [here](https://jptgamesandapps.github.io/ShresthaFiles/)
 
