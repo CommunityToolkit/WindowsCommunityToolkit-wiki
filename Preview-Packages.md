@@ -14,13 +14,13 @@ We have a number of public NuGet feeds hosted from our Azure DevOps pipeline. Th
 
 ## Latest
 
-Feed URL: `https://pkgs.dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging/WindowsCommunityToolkit-MainLatest/nuget/v3/index.json`
+Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-MainLatest/nuget/v3/index.json`
 
 The Latest feed is updated whenever a change is merged to the main branch. It contains the latest changes to the next version of the Windows Community Toolkit. It is a great feed to help test the latest set of features which have gone through the development process.
 
 ## Pull Requests
 
-Feed URL: `https://pkgs.dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging/WindowsCommunityToolkit-PullRequests/nuget/v3/index.json`
+Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-PullRequests/nuget/v3/index.json`
 
 🚨 The Pull Request feed is automatically built from PRs that are submitted. They may contain untested features, unreviewed fixes, and code which has not been validated. It is important to understand these risks before pulling a package from the feed.
 
@@ -32,7 +32,9 @@ That said, the Pull Request feed is a great feed to help other developers test a
 
 ## WinUI 3 Previews
 
-Feed URL: `https://pkgs.dev.azure.com/dotnet/WindowsCommunityToolkit/_packaging/WindowsCommunityToolkit-WinUI3/nuget/v3/index.json`
+⚠ Note: Stable versions of these packages aligned with the Windows App SDK have been released and are available on NuGet now, find latest information [here](https://aka.ms/wct-winui3).
+
+Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-WinUI3/nuget/v3/index.json`
 
 The [WinUI 3](https://aka.ms/winui3) feed contains our latest packages compatible with WinUI 3 for Desktop developers. You can find more about how the Toolkit works with these previews [here](https://aka.ms/wct-winui3).
 
