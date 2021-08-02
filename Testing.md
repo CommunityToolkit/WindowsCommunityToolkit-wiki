@@ -63,7 +63,7 @@ Before going the route of writing a UI Test, see if the `VisualUITestBase` (abov
 
 The UI integration tests automatically run as part of our continuous integration system on every PR, but you can also run them locally within Visual Studio. They actually get run with all the other Unit Tests within the Visual Studio **Test Explorer**! You can run just the integration tests by selecting the `UITests.Tests.MSTest` node in Test Explorer.
 
-It is important to note though that when the tests run in Visual Studio and the CI they'll actually be run with two different types of harnesses (MSTest locally and [TAEF](https://docs.microsoft.com/windows-hardware/drivers/taef/) in the CI). If you're seeing an issue in the CI, but not in Visual Studio, it may be useful to run a full build locally using the build script of the `build` directory of the repo to replicate a full CI build. In a VS Dev command prompt, you can run `build.ps1 -target=UITest` after a build to run the UI Tests.
+It is important to note though that when the tests run in Visual Studio and the CI they'll actually be run with two different types of harnesses (MSTest locally and [TAEF](https://docs.microsoft.com/windows-hardware/drivers/taef/) in the CI). If you're seeing an issue in the CI, but not in Visual Studio, it may be useful to run a full build locally using the build script of the `build` directory of the repo to replicate a full CI build. In a VS Dev command prompt, you can run `build.ps1 -Target UITest` after a build to run the UI Tests.
 
 ### Adding a UI Integration Test
 
