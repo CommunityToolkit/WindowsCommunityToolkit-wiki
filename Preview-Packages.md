@@ -1,4 +1,4 @@
-The Windows Community Toolkit has a variety of ways to test out new features or fixes ahead of their official release. This page describes the various channels available and how to connect them to your development environment.
+The Community Toolkit has a variety of ways to test out new features or fixes ahead of their official release. This page describes the various channels available and how to connect them to your development environment.
 
 🚨 It's important to note that with any of these previews, there are APIs, controls, or features which may change or be removed before the final release. They are intended to make it easier for developers to provide feedback on them ahead of time so we can gauge interest or ensure they cover a broad range of scenarios before we ship them. Therefore, it's important to not rely on the preview package too heavily or use within production software without understanding these risks.
 
@@ -12,13 +12,19 @@ To access these previews, you can simply ensure you have the [Include prerelease
 
 We have a number of public NuGet feeds hosted from our Azure DevOps pipeline. These are not found by default when searching the main NuGet server from within Visual Studio. You must add alternate [Package sources](https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-visual-studio#package-sources) within the Visual Studio settings or if sharing within a team/project setup [packageSources](https://docs.microsoft.com/en-us/nuget/reference/nuget-config-file#packagesources) within a `nuget.config` file.
 
-## Latest
+## Latest 🌙
 
 Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-MainLatest/nuget/v3/index.json`
 
-The Latest feed is updated whenever a change is merged to the main branch. It contains the latest changes to the next version of the Windows Community Toolkit. It is a great feed to help test the latest set of features which have gone through the development process.
+The Latest feed is updated whenever a change is merged to the main branch. It contains the latest changes to the next versions of the Community Toolkit. It is a great feed to help test the latest set of features which have gone through the development process and are pending release. (_Note: It is possible new features can still be changed or removed before a release._)
 
-## Pull Requests
+## Toolkit Labs 🧪
+
+Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-Labs/nuget/v3/index.json`
+
+The [[Toolkit Labs]] feed contains various _**experimental**_ projects that are being incubated by the community. This feed is provided as an easy way to pull them into projects to test out and provide feedback to their developers. Projects either have their own dedicated repository or come from a central general Lab repo (per technology), but they all push to this feed. See the [[Toolkit Labs]] page in this wiki for more details on our current experiments and where to find more information.
+
+## Pull Requests 🚧
 
 Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-PullRequests/nuget/v3/index.json`
 
@@ -30,14 +36,6 @@ That said, the Pull Request feed is a great feed to help other developers test a
 
 📝 Note, the package in the feed will have a '.g' replacing the '+' seen in this visual for the PR. [See Nerdbank Docs here](https://github.com/dotnet/Nerdbank.GitVersioning/blob/master/doc/dotnet.md).
 
-## WinUI 3 Previews
+## WinUI 3 Previews (Archive)
 
 ⚠ Note: Stable versions of these packages aligned with the Windows App SDK have been released and are available on NuGet now, find latest information [here](https://aka.ms/wct-winui3).
-
-Feed URL: `https://pkgs.dev.azure.com/dotnet/CommunityToolkit/_packaging/CommunityToolkit-WinUI3/nuget/v3/index.json`
-
-The [WinUI 3](https://aka.ms/winui3) feed contains our latest packages compatible with WinUI 3 for Desktop developers. You can find more about how the Toolkit works with these previews [here](https://aka.ms/wct-winui3).
-
-This is a separate feed for now as we have not changed our package names or namespaces from `.UWP.` to `.WinUI.`. This makes it easier for developers to use existing code and samples to test the Windows Community Toolkit on top of WinUI 3, but would break any existing UWP apps if accidently pulled down as a 'newer' preview from a regular feed location. For this reason, we've isolated the WinUI 3 previews into their own distinct feed for those developers.
-
-Our plan is most likely to use new package names/namespaces as other libraries have started adopting as common practice. When we get closer to moving the Toolkit to build entirely on top of WinUI 3 after it supports Desktop and UWP developers on top of the latest .NET, we will update our packages and namespaces to a new format and start shipping 'official' previews on NuGet as well.

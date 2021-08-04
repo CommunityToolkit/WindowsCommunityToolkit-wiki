@@ -18,6 +18,7 @@
 * [[Getting Started]] 🙌
 * [[NuGet Packages]] 📦
 * [[Preview Packages]] 🌙
+* [[Toolkit Labs]] 🧪
 * [[Questions]] ❓
 
 ### Contribution
