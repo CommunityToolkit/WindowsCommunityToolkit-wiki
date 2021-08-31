@@ -28,3 +28,4 @@ These were the community members with impeccable performance and consistency whi
 - [bixybixy2](https://github.com/bixybixy2)
 - [George Gao](https://github.com/gegao18)
 - [Harish Kulkarni](https://github.com/harishsk)
+- [David Bottiau](https://github.com/Odonno)
