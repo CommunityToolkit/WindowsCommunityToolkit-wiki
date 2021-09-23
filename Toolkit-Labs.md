@@ -7,6 +7,7 @@ Community Toolkit Labs is a place for rapidly prototyping ideas and gathering co
 
 Below is a list of the current repositories we have for current experiments. Check out each one for more details.
 
+- [Eye Gaze Controls](https://github.com/CommunityToolkit/Labs-GazeControls) aim to make applications more accesible to eye gaze with gaze-first designed controls.
 - [Intelligent APIs](https://github.com/CommunityToolkit/Labs-IntelligentAPIs) aim to make machine learning (ML) tasks easier for UWP developers to leverage in their applications without needing ML expertise or creating a new model.
 
 ## 🚧 Labs NuGet Feed
