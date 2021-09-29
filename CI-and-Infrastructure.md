@@ -26,7 +26,7 @@ While this step primarily to feed into building the packages, it also makes sure
 This helps make sure that the sample app is always an accurate example of using the libraries.
 
 ### Test
-Once all the libraries are built the our tests are ran, see [Testing](Testing.md).
+Once all the libraries are built the our tests are ran, see [Testing](https://github.com/CommunityToolkit/WindowsCommunityToolkit/wiki/Testing).
 
 ### Publish
 The libraries are packaged into NuGet packages and automatically published to our Azure Feeds, see [Preview Packages](https://github.com/CommunityToolkit/WindowsCommunityToolkit/wiki/Preview-Packages).
