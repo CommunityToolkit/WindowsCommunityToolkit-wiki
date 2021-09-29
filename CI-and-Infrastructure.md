@@ -28,8 +28,8 @@ This helps make sure that the sample app is always an accurate example of using 
 ### Test
 Once all the libraries are built the our tests are ran, see [Testing](Testing.md).
 
-### Publishing
+### Publish
 The libraries are packaged into NuGet packages and automatically published to our Azure Feeds, see [Preview Packages](https://github.com/CommunityToolkit/WindowsCommunityToolkit/wiki/Preview-Packages).
 
-### Package analysis
+### Analyze
 We perform analysis on the changes of in size of packages as well how much the sizes of apps using these packages change.
