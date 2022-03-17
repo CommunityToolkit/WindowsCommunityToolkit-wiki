@@ -2,7 +2,7 @@
 
 This repo is the home of the [Windows Community Toolkit Wiki](https://github.com/windows-toolkit/WindowsCommunityToolkit/wiki).
 
-🚨 Changes approved and commited to this repo automatically are pushed to the main Wiki, so please use this repo to suggest and make changes vs. editing the Wiki directly.
+🚨 Changes approved and committed to this repo automatically are pushed to the main Wiki, so please use this repo to suggest and make changes vs. editing the Wiki directly.
 
 This repo contains Documentation and Guidance for the Windows Community Toolkit Project itself. This pertains to:
 
