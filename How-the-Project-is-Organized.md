@@ -1,6 +1,6 @@
 # How the Project is Organized
 
-Windows Community Toolkit is a partnership between Microsoft and the community that makes this project possible. The project is managed and maintained by the Windows Community Toolkit organization on GitHub. Microsoft has appointed a maintainer for the project to help the toolkit team collaborate with community partners like Microsoft MVP's, our [Members](https://github.com/orgs/windows-toolkit/teams/toolkitteam/members) (contributors who have been recognized as members of the project due to their continuous contribution and dedication), or any contributors who have been working effectively to enhance the toolkit.
+Windows Community Toolkit is a partnership between Microsoft and the community that makes this project possible. The project is managed and maintained by the Windows Community Toolkit organization on GitHub. Microsoft has appointed a maintainer for the project to help the toolkit team collaborate with community partners like Microsoft MVP's, our [Members](https://github.com/orgs/communitytoolkit/teams/toolkitteam/members) (contributors who have been recognized as members of the project due to their continuous contribution and dedication), or any contributors who have been working effectively to enhance the toolkit.
 
 Additionally, we record former members of the Windows Community Toolkit organization in our [[Hall of Fame]] as recognition for their remarkable and exceptional contribution in the past that has enhanced the project.
 
