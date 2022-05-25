@@ -2,7 +2,7 @@ NuGet is a standard package manager for .NET applications which is built into Vi
 
 Once you do a search, you should see a list similar to the one below (versions may be different, but names should be the same).
 
-**Note**: The Windows Community Toolkit is now compatible with WinUI3 which is why WCT has trasitioned from UWP NuGet package naming to the WinUI NuGet Packages mentioned below. To learn more about the transition and project update please checkout [Windows Community Toookit for Project Reunion](https://aka.ms/wct-winui3)
+**Note**: The Windows Community Toolkit is now compatible with WinUI3 which is why WCT has transitioned from UWP NuGet package naming to the WinUI NuGet Packages mentioned below. To learn more about the transition and project update please checkout [Windows Community Toolkit for Project Reunion](https://aka.ms/wct-winui3)
 
 | **UWP NuGet Package Name**      | **WinUI NuGet Package Name** | **Description** |
 | :-------------: | :----------: | :----------: |

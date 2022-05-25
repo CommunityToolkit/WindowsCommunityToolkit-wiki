@@ -192,7 +192,7 @@ See more info on other properties below.
 
 Some features used by samples aren't available on all the OS versions that the Sample App runs on.  In order to make sure a sample is valid for the host OS, add the `ApiCheck` key/value in your JSON definition.
 
-The value is a string which is the fully-qualified typename to check for the presence of.  You can also accompany this with the `BadgeUpdateVersionRequred` which uses the string provided to show a short message on the sample information so up level implementors know the minimum version required.
+The value is a string which is the fully-qualified typename to check for the presence of.  You can also accompany this with the `BadgeUpdateVersionRequired` which uses the string provided to show a short message on the sample information so up level implementors know the minimum version required.
 
 ```json
     {
