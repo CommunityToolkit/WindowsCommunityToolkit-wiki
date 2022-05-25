@@ -44,6 +44,7 @@
 * [[Accessibility Guideline]] ♿
 * [[Building XAML Controls]] 🎛
 * [[Fabric Bot Services]] 🤖
+* [[CI and Infrastructure]] 👾
 
 ### Project Structure
 
