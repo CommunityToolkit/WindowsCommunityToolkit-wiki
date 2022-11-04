@@ -7,6 +7,7 @@ Community Toolkit Labs is a place for rapidly prototyping ideas and gathering co
 
 Below is a list of the current repositories we have for current experiments. Check out each one for more details.
 
+- [Windows Community Toolkit Labs](https://github.com/CommunityToolkit/Labs-Windows) is the new home for creating all new components and features for the Windows Community Toolkit.
 - [Eye Gaze Controls](https://github.com/CommunityToolkit/Labs-GazeControls) aim to make applications more accessible to eye gaze with gaze-first designed controls.
 - [Intelligent APIs](https://github.com/CommunityToolkit/Labs-IntelligentAPIs) aim to make machine learning (ML) tasks easier for UWP developers to leverage in their applications without needing ML expertise or creating a new model.
 
@@ -14,14 +15,14 @@ Below is a list of the current repositories we have for current experiments. Che
 
 We have a dedicated NuGet feed for Toolkit Labs in our public DevOps package feed. You can find out more about using these types of feeds on the [[Preview Packages]] page.
 
-## ❓ Why Labs? 
+## ❓ Why Labs?
 
 As the Community Toolkit has grown, we've raised the bar on the quality of our code and the process we use for vetting new features being introduced. While this helps our community know they're getting quality tested items in each of our releases; it can slow down the pace that we can innovate at.
 
 Innovation has been the life of the Community Toolkit, without it we wouldn't be here! Rapidly prototyping ideas, gathering community feedback, and shipping things folks need has been instrumental to how the Toolkit works. For this reason, we've introduced `Community Toolkit Labs`.
 
-Labs will be a place where we can incubate and work on new features in a safe space outside our normal code base and _ship cycles_. It'll be easier to get started working on code and collaborating with others before having to worry about the docs, samples, and tests required to ship a full fleshed-out idea and feature within the Toolkit. Especially when you're just starting with a prototype!
+Labs are places where we can incubate and work on new features in a safe space outside our normal code base and _ship cycles_. It'll be easier to get started working on code and collaborating with others before having to worry about the docs, samples, and tests required to ship a full fleshed-out idea and feature within the Toolkit. Especially when you're just starting with a prototype!
 
 Labs are setup with a lower barrier to entry, so a developer can get initial feedback, work more on an idea with others, and gather feedback from a broader set of developers.
 
-In the future, we plan to have a central repository for each Toolkit's technology for smaller features and controls to be proposed, incubate, and worked in with the community. Be on the lookout for more info about updates to this new experience after the Windows Community Toolkit's 7.1 release.
+We plan to have a central repository for each Toolkit's technology for smaller features and controls to be proposed, incubate, and worked in with the community. The first of these is the new [Windows Community Toolkit Labs](https://github.com/CommunityToolkit/Labs-Windows).
